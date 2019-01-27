@@ -5,6 +5,6 @@ of the things are gone be really simple for now.
 
 # What I have 
 
-1.- Arduino Uno.
-2.- Keypad 4x4.
-3.- Leds... a lot of leds.
+1. Arduino Uno.
+2. Keypad 4x4.
+3. Leds... a lot of leds.
