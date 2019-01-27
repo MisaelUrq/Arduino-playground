@@ -22,7 +22,7 @@ Keypad pad = Keypad(makeKeymap(keymap),
                     rows, cols);;
 
 int delta = 0.0;
-const int time_switch = 25000;
+const int time_switch = 28000;
 
 enum {
   LED_RED,
