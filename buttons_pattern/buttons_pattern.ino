@@ -1,28 +1,14 @@
-#include <Keypad.h>
 #include <string.h>
 
 #define FOR_RANGE(start_index, end_index) for (byte index = start_index; index < end_index; ++index)
 
-const byte rows  = 4;
-const byte cols  = 4;
-const byte leds  = 4;
-const byte row_pins[rows] = {9, 8, 7, 6};
-const byte col_pins[cols]  = {5, 4, 3, 2};
+const byte buttons  = 3;
+const byte leds     = 4;
 const byte leds_pins[leds] = {13, 12, 11, 10};
-
-char keymap[rows][cols] = {
-  '1', '2', '3', 'A',
-  '4', '5', '6', 'B',
-  '7', '8', '9', 'C',
-  '*', '0', '#', 'D',
-};
-
-Keypad pad = Keypad(makeKeymap(keymap),
-                    row_pins, col_pins,
-                    rows, cols);;
+const byte buttons_pins[buttons] = {4, 3, 2};
 
 int delta = 0.0;
-int time_switch = 28000;
+const int time_switch = 28000;
 
 enum {
   LED_RED,
@@ -51,11 +37,8 @@ void setup() {
   FOR_RANGE(0, leds) {
     pinMode(leds_pins[index], OUTPUT);
   }
-  FOR_RANGE(0, rows) {
-    pinMode(row_pins[index], INPUT);
-  }
-  FOR_RANGE(0, cols) {
-    pinMode(col_pins[index], INPUT);
+  FOR_RANGE(0, buttons) {
+    pinMode(buttons_pins[index], INPUT);
   }
 }
 
@@ -89,31 +72,14 @@ void loop() {
     state.time_switch_pass = false;
   }
 
-  char input = pad.getKey();
-
-  if (input != NO_KEY) {
-    switch (input) {
-    case '1': {
+  if (digitalRead(buttons_pins[0]) == HIGH) {
       ChangeState(&state, MODE_LINEAR);
-    } break;
-    case '2': {
-      ChangeState(&state, MODE_BLINK);
-    } break;
-    case '3': {
+  }
+  if (digitalRead(buttons_pins[1]) == HIGH) {
+    ChangeState(&state, MODE_BLINK);
+  }
+  if (digitalRead(buttons_pins[2]) == HIGH) {
       ChangeState(&state, MODE_PINK_PONG);
-    } break;
-    case 'B': {
-      // NOTE(Misael): This appears to be the max before it's breaks.
-      time_switch += (time_switch > 30000) ? 0 : 1000;
-    } break;
-    case 'A': {
-      // NOTE(Misael): This appears to be the min before it's breaks.
-      time_switch -= (time_switch < 15000) ? 0 : 1000;
-    } break;
-    default: {
-
-    }
-    }
   }
 
   switch (state.mode) {
