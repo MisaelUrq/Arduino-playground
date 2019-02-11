@@ -3,8 +3,8 @@
 
 const byte rows  = 4;
 const byte cols  = 4;
-byte row_pins[rows] = {9, 8, 7, 6};
-byte col_pins[cols]  = {5, 4, 3, 2};
+byte row_pins[rows] = {10, 9, 8, 7};
+byte col_pins[cols]  = {6, 5, 4, 3};
 const int red_led    = 12;
 const int green_led  = 13;
 const int yellow_led = 11;
@@ -40,6 +40,10 @@ void setup()
   pinMode(red_led, OUTPUT);
   pinMode(green_led, OUTPUT);
   pinMode(yellow_led, OUTPUT);
+
+  for (byte index = 3; index <= 10; index++) {
+    pinMode(index, INPUT);
+  }
 }
 
 void ResetState() {
@@ -125,6 +129,8 @@ void loop()
       } else if (input_char[0] == '#'){
         if (strcmp(password, input) == 0) {
           state = INVALID;
+          Serial.print("unlock");
+          Serial.println();
           digitalWrite(green_led, HIGH);
           digitalWrite(red_led, LOW);
         } else {
