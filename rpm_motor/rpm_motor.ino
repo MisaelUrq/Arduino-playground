@@ -20,6 +20,7 @@ float percentage; // From 0 to 1 inclusive.
 
 void setup()
 {
+  Serial.begin(9600);
   for (byte index = 0; index < rows; index++){
    	pinMode(row_pins[index], INPUT);
   }
@@ -31,6 +32,7 @@ void setup()
 
 void loop()
 {
+  
   char input = pad.getKey();
 
   if (input != NO_KEY) {
@@ -67,6 +69,6 @@ void loop()
     }
     }
   }
-
+  
   analogWrite(output_pin, (int)(255 * percentage));
 }

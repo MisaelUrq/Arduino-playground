@@ -17,15 +17,18 @@ void setup()
 void loop()
 {
   val = analogRead(analogo);     // read the input pin
+  Serial.print("Val: ");
+  Serial.print(val);
+  Serial.println("");
   voltaje=val*0.0048;
-  voltajeTem=voltaje-0.75;
+  voltajeTem=voltaje;
   temperatura=(voltaje/0.010);
   Serial.print("Temperatura: ");
   Serial.print(temperatura);
 
   if(temperatura>=50)
   {
-    digitalWrite(foco_pin,HIGH);
+    digitalWrite(foco_pin,LOW);
     digitalWrite(ventilador_pin,HIGH);  //Ventilador
     Serial.print(", ");
     Serial.println("Alta");
@@ -44,5 +47,5 @@ void loop()
     digitalWrite(foco_pin,LOW);
     digitalWrite(ventilador_pin,LOW);
   }
-  delay(5000);
+  delay(2000);
 }

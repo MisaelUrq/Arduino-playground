@@ -13,7 +13,7 @@ namespace Program {
                 Console.WriteLine("Name: " + name);
             }
 
-            String port_to_connect = Console.ReadLine();
+            String port_to_connect = "COM5";
 
             port = new SerialPort(port_to_connect, 9600, Parity.None, 8, StopBits.One);
             port.Open();

@@ -1,0 +1,1191 @@
+--------- beginning of main
+05-11 23:00:24.560 25387 25387 I MotoDisplay: isPulseAllowed - warm up complete: true
+05-11 23:00:24.626 27813 27813 I BgTaskExecutorImpl: Starting EXCLUSIVE background task FETCH_CONFIGS_FROM_PHENOTYPE.
+05-11 23:00:24.678 25387 25387 I MotoDisplay: Setting display to doze
+05-11 23:00:24.680   550   550 D SurfaceFlinger: Set power mode=1, type=0 flinger=0xafdb7000
+--------- beginning of system
+05-11 23:00:24.682  2413  2645 I DisplayManagerService: Display device changed state: "Pantalla integrada", DOZE
+05-11 23:00:24.691  2413  2939 I InputReader: Reconfiguring input devices.  changes=0x00000004
+05-11 23:00:24.697  3184  3221 D DozeHostService: pulseWhileDozing reason: 1
+05-11 23:00:24.708   518   518 I DisplayPanel: setMode: panel mode = POWER_SAVING
+05-11 23:00:24.708   518   518 I DisplayPanel: setParam: HBM = 0
+05-11 23:00:24.709   518   518 I DisplayPanel: setParam: CABC = MV
+05-11 23:00:24.709   508 12267 I SDM     : DisplayBase::SetDisplayState: Set state = 2, display 0
+05-11 23:00:24.714   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:24.758  3184  3184 D StatusBar: DozeServiceHost: pulseWhileDozing - reason: 1
+05-11 23:00:24.942  5771  5771 W ChimeraUtils: Non Chimera context
+05-11 23:00:24.942  5771  5771 W ChimeraUtils: Non Chimera context
+05-11 23:00:25.046  2413  3134 D SurfaceControl: Excessive delay in setPowerMode(): 366ms
+05-11 23:00:25.070   550   550 D SurfaceFlinger: Backpressure trigger, skipping transaction & refresh!
+05-11 23:00:25.235  2413  2433 I zygote  : Background concurrent copying GC freed 64386(3MB) AllocSpace objects, 15(296KB) LOS objects, 42% free, 22MB/39MB, paused 555us total 287.608ms
+05-11 23:00:25.281   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=0.000000
+05-11 23:00:25.284 27813 28057 I ModelDownloadListener: Schdedule model download
+05-11 23:00:25.291 27813 27813 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPDATE_HOTWORD_MODELS.
+05-11 23:00:25.298 27813 28085 I ModelDownloadController: requestHotwordModelUpdate modelType-OK_GOOGLE modelLocale-es-US
+05-11 23:00:25.300 27813 28085 I ModelDownloadController: We already downloaded model from given location.
+05-11 23:00:25.300 27813 28085 I ModelDownloadController: Handle the downloaded hotword model
+05-11 23:00:25.300 27813 28085 I ModelDownloadController: the model is already used
+05-11 23:00:25.300 27813 28085 I ModelDownloadController: Model download failed
+05-11 23:00:25.300 27813 28057 I EngineIdGenerator: Refusing EXCLUSIVE task INTERNAL_PERIODIC_TASK_SYNC, it is already pending. Try again in 348 seconds.
+05-11 23:00:25.302 27813 27995 W SearchServiceCore: Abort, client detached.
+05-11 23:00:25.302 27813 27995 I chatty  : uid=10068(u0_a68) EventBus0 identical 1 line
+05-11 23:00:25.302 27813 27995 W SearchServiceCore: Abort, client detached.
+05-11 23:00:25.303 27813 28057 I OpaEligibilityChecker: send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+05-11 23:00:25.323 27813 27818 I zygote  : Do full code cache collection, code=366KB, data=224KB
+05-11 23:00:25.326 27813 27818 I zygote  : After code cache collection, code=282KB, data=162KB
+05-11 23:00:25.350  3960 27873 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=SEARCH_QUERIES
+05-11 23:00:25.355  3960  9911 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=GLOBAL_SEARCH_ADMIN
+05-11 23:00:25.380  3960 25142 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload true
+05-11 23:00:25.390  3960 25142 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload true
+05-11 23:00:25.512 27813 27995 W SearchServiceCore: Abort, client detached.
+05-11 23:00:25.512 27813 27995 I chatty  : uid=10068(u0_a68) EventBus0 identical 1 line
+05-11 23:00:25.513 27813 27995 W SearchServiceCore: Abort, client detached.
+05-11 23:00:25.549   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:25.668   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=2.000000
+05-11 23:00:25.682  3612 27419 W ctxmgr  : [WorkManager]Long workInfo: pkg=com.google.android.gms, lbl=EvaluateFences, start=2019-05-11 23:00:22.755-0500, stop=2019-05-11 23:00:25.682-0500, durtn=2927ms [CONTEXT service_id=47 ]
+05-11 23:00:25.806   501   754 W qti_sensors_hal: processReportInd: lux: 41, ch0: 41, ch1: 1290
+05-11 23:00:25.820   550   817 I SFPerfTracer:      triggers: (rate: 0:0) (48481 sw vsyncs) (0 skipped) (0:1153071 vsyncs) (89:1367296)
+05-11 23:00:25.850  2413  8216 I ActivityManager: Start proc 28262:com.google.android.apps.tachyon/u10a83 for broadcast com.google.android.apps.tachyon/.phenotype.PhenotypeBroadcastReceiver
+05-11 23:00:25.852 28064 28064 I BgTaskExecutorImpl: Starting EXCLUSIVE background task FETCH_CONFIGS_FROM_PHENOTYPE.
+05-11 23:00:25.897  2150 25352 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:25.897  2150 28276 I FingerprintHal: [fingerprint.c] [do_event_status:350] WAKE_LOCK 
+05-11 23:00:25.922  2150 25352 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:25.930  2150 28277 I FingerprintHal: [fingerprint.c] [do_event_status:360] CAPTURE_FINGER_DETECTED 
+05-11 23:00:26.005 28262 28262 W ResourceType: ResTable_typeSpec entry count inconsistent: given 753, previously 755
+05-11 23:00:26.005 28262 28262 W ResourceType: ResTable_typeSpec entry count inconsistent: given 487, previously 492
+05-11 23:00:26.006 28262 28262 W ResourceType: ResTable_typeSpec entry count inconsistent: given 335, previously 1259
+05-11 23:00:26.006 28262 28262 W ResourceType: ResTable_typeSpec entry count inconsistent: given 219, previously 1037
+05-11 23:00:26.025   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:26.047  2150 25352 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.047  2150 28280 I FingerprintHal: [fingerprint.c] [do_event_status:371] CAPTURE_FINISH 
+05-11 23:00:26.063  3184  3184 I FingerprintController: fingerprint acquired, grabbing fp wakelock
+05-11 23:00:26.116  2150 25352 I ETS-MAIN: [main_control.c] [do_verify:646] main-control MODE_IGNORE_FINGER_OFF 
+05-11 23:00:26.116  2150 25352 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.118  2150 25352 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.120  2413  3124 V FingerprintService: onAuthenticated, deviceId = 2993770928 fingerId = 0 groupId = 0
+05-11 23:00:26.120  2150 25352 D ETS_TZ_CLIENT: ets ,send modified cmd buffer: start
+05-11 23:00:26.121  2413  2413 V FingerprintService: handleAuthenticated
+05-11 23:00:26.123  3184  3184 I FingerprintController: releasing fp wakelock
+05-11 23:00:26.128  2150 28283 I FingerprintHal: [fingerprint.c] [do_event_status:487] VERIFY_FINISH 
+05-11 23:00:26.128  2150 28283 I FingerprintHal: [fingerprint.c] [authenticate_finger:626] start authenticate_finger 
+05-11 23:00:26.128  2150 28283 I ETS-MAIN: [egistec_fp_api.c] [efp_verify_finger:269] [efp_verify_finger] enter 
+05-11 23:00:26.128  2150 28283 I ETS-MAIN: [egistec_fp_api.c] [efp_verify_finger:271] [efp_verify_finger] return = 0 
+05-11 23:00:26.129  2150 28284 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.170  3184  3184 D StatusBar: DozeServiceHost: notifyFpsHelp
+05-11 23:00:26.176 25387 25387 I MotoDisplay: pulse - trigger: Type: FINGERPRINT_EVENT is pulsing: true is paused: false
+05-11 23:00:26.176 25387 25387 I MotoDisplay: Acquiring wakelock MotoDisplayWakeLock for 500
+05-11 23:00:26.179 25387 25387 I MotoDisplay: isPulseAllowed - warm up complete: true
+05-11 23:00:26.208 28262 28262 W PrimesInit: Primes instant initialization
+05-11 23:00:26.214 28262 28262 I org.webrtc.Logging: NativeLibrary: Loading native library: jingle_peerconnection_so
+05-11 23:00:26.267 28262 28289 W Primes  : background initialization
+05-11 23:00:26.293   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=2.000000
+05-11 23:00:26.354   501   754 W qti_sensors_hal: processReportInd: lux: 5, ch0: 58, ch1: 229
+05-11 23:00:26.378 28262 28289 I PrimesTesting: GserviceFlagsSupplier.get()
+05-11 23:00:26.414 28262 28289 W ResourceType: For resource 0x7f13036a, entry index(874) is beyond type entryCount(335)
+05-11 23:00:26.432 28262 28262 I OpenCV  : cpufeatures library is not avaialble for CPU detection
+05-11 23:00:26.432 28262 28262 I OpenCV  : - NEON instructions is enabled via build flags
+05-11 23:00:26.432 28262 28262 I OpenCV  : - FP16 instructions is enabled via build flags
+05-11 23:00:26.492 28064 28100 I zygote  : Deoptimizing java.util.List com.google.protobuf.df.a(java.lang.Object, long) due to JIT inline cache
+05-11 23:00:26.495 28262 28262 I org.webrtc.Logging: PeerConnectionFactory: PeerConnectionFactory was initialized without an injected Loggable. Any existing Loggable will be deleted.
+05-11 23:00:26.497  2150 28284 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.540  2150 28298 I FingerprintHal: [fingerprint.c] [do_event_status:355] WAKE_UNLOCK 
+05-11 23:00:26.540  2150 28297 I FingerprintHal: [fingerprint.c] [do_event_status:346] CAPTURE_WAIT_FINGER_ON 
+05-11 23:00:26.543 28064 28100 I zygote  : Deoptimizing void com.google.protobuf.an.b(int, int) due to JIT inline cache
+05-11 23:00:26.547 28064 28100 I zygote  : Deoptimizing void com.google.protobuf.eo.h(int, java.util.List, com.google.protobuf.gc, boolean) due to JIT inline cache
+05-11 23:00:26.566 28064 28102 I ModelDownloadListener: Schdedule model download
+05-11 23:00:26.578 28064 28064 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPDATE_HOTWORD_MODELS.
+05-11 23:00:26.585 28064 28095 I ModelDownloadController: requestHotwordModelUpdate modelType-OK_GOOGLE modelLocale-es-US
+05-11 23:00:26.605 28262 28296 W ResourceType: For resource 0x7f130195, entry index(405) is beyond type entryCount(335)
+05-11 23:00:26.614 28262 28296 I FA      : App measurement is starting up, version: 16200
+05-11 23:00:26.614 28262 28296 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+05-11 23:00:26.614 28262 28296 I FA      : To enable faster debug mode event logging run:
+05-11 23:00:26.614 28262 28296 I FA      :   adb shell setprop debug.firebase.analytics.app com.google.android.apps.tachyon
+05-11 23:00:26.614 28064 28095 I ModelDownloadController: We already downloaded model from given location.
+05-11 23:00:26.614 28064 28095 I ModelDownloadController: Handle the downloaded hotword model
+05-11 23:00:26.614 28064 28095 I ModelDownloadController: the model is already used
+05-11 23:00:26.614 28064 28095 I ModelDownloadController: Model download failed
+05-11 23:00:26.617 28064 28169 W SearchServiceCore: Abort, client detached.
+05-11 23:00:26.617 28064 28169 W SearchServiceCore: Abort, client detached.
+05-11 23:00:26.620 28064 28102 I EngineIdGenerator: Refusing EXCLUSIVE task INTERNAL_PERIODIC_TASK_SYNC, it is already pending. Try again in 349 seconds.
+05-11 23:00:26.634 28262 28296 W FA      : Failed to retrieve Firebase Instance Id
+05-11 23:00:26.634 28064 28069 I zygote  : Do partial code cache collection, code=249KB, data=151KB
+05-11 23:00:26.637  2150 28284 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.637  2150 28309 I FingerprintHal: [fingerprint.c] [do_event_status:350] WAKE_LOCK 
+05-11 23:00:26.637 28262 28262 W TachyonTelecomModule: Self-managed ConnectionServices are supported from O onwards
+05-11 23:00:26.638 28064 28102 I OpaEligibilityChecker: send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+05-11 23:00:26.644 28064 28069 I zygote  : After code cache collection, code=236KB, data=145KB
+05-11 23:00:26.644 28064 28069 I zygote  : Increasing code cache capacity to 1024KB
+05-11 23:00:26.648 28262 28296 W FA      : Failed to retrieve Firebase Instance Id
+05-11 23:00:26.655  2150 28284 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.655  2150 28310 I FingerprintHal: [fingerprint.c] [do_event_status:360] CAPTURE_FINGER_DETECTED 
+05-11 23:00:26.710 25885 26329 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=SEARCH_QUERIES
+05-11 23:00:26.718 25885 27879 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=GLOBAL_SEARCH_ADMIN
+05-11 23:00:26.730 28262 28262 W ResourceType: For resource 0x7f130195, entry index(405) is beyond type entryCount(335)
+05-11 23:00:26.730 28262 28262 W ResourceType: For resource 0x7f130194, entry index(404) is beyond type entryCount(335)
+05-11 23:00:26.730 28262 28262 W ResourceType: For resource 0x7f130183, entry index(387) is beyond type entryCount(335)
+05-11 23:00:26.733 28262 28262 W ResourceType: For resource 0x7f130191, entry index(401) is beyond type entryCount(335)
+05-11 23:00:26.733 28262 28262 W ResourceType: For resource 0x7f130197, entry index(407) is beyond type entryCount(335)
+05-11 23:00:26.733 28262 28262 W ResourceType: For resource 0x7f13036b, entry index(875) is beyond type entryCount(335)
+05-11 23:00:26.777  2150 28284 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.777  2150 28327 I FingerprintHal: [fingerprint.c] [do_event_status:371] CAPTURE_FINISH 
+05-11 23:00:26.779  3184  3184 I FingerprintController: fingerprint acquired, grabbing fp wakelock
+05-11 23:00:26.786 25885 26620 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload true
+05-11 23:00:26.792 28262 28262 W ResourceType: For resource 0x7f13033a, entry index(826) is beyond type entryCount(335)
+05-11 23:00:26.792 28262 28262 W ResourceType: For resource 0x7f130322, entry index(802) is beyond type entryCount(335)
+05-11 23:00:26.792   501   754 W qti_sensors_hal: processReportInd: lux: 35, ch0: 62, ch1: 1136
+05-11 23:00:26.793 28262 28262 W ResourceType: For resource 0x7f130321, entry index(801) is beyond type entryCount(335)
+05-11 23:00:26.793 28262 28262 W ResourceType: For resource 0x7f13034d, entry index(845) is beyond type entryCount(335)
+05-11 23:00:26.796 28262 28262 W ResourceType: For resource 0x7f13034c, entry index(844) is beyond type entryCount(335)
+05-11 23:00:26.796 28262 28262 W ResourceType: For resource 0x7f130358, entry index(856) is beyond type entryCount(335)
+05-11 23:00:26.797 28262 28262 W ResourceType: For resource 0x7f130357, entry index(855) is beyond type entryCount(335)
+05-11 23:00:26.797 28262 28262 W ResourceType: For resource 0x7f13031f, entry index(799) is beyond type entryCount(335)
+05-11 23:00:26.797 28262 28262 W ResourceType: For resource 0x7f130349, entry index(841) is beyond type entryCount(335)
+05-11 23:00:26.797 28262 28262 W ResourceType: For resource 0x7f13034a, entry index(842) is beyond type entryCount(335)
+05-11 23:00:26.803 28064 28169 W SearchServiceCore: Abort, client detached.
+05-11 23:00:26.811 25885 26620 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload true
+05-11 23:00:26.856  2150 28284 I ETS-MAIN: [main_control.c] [do_verify:646] main-control MODE_IGNORE_FINGER_OFF 
+05-11 23:00:26.856  2150 28284 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.858  2150 28284 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.860  2150 28284 D ETS_TZ_CLIENT: ets ,send modified cmd buffer: start
+05-11 23:00:26.860  2413  3124 V FingerprintService: onAuthenticated, deviceId = 2993770928 fingerId = 0 groupId = 0
+05-11 23:00:26.861  2413  2413 V FingerprintService: handleAuthenticated
+05-11 23:00:26.862  3184  3184 I FingerprintController: releasing fp wakelock
+05-11 23:00:26.864  3184  3184 D StatusBar: DozeServiceHost: notifyFpsHelp
+05-11 23:00:26.864  2150 28334 I FingerprintHal: [fingerprint.c] [do_event_status:487] VERIFY_FINISH 
+05-11 23:00:26.864  2150 28334 I FingerprintHal: [fingerprint.c] [authenticate_finger:626] start authenticate_finger 
+05-11 23:00:26.864  2150 28334 I ETS-MAIN: [egistec_fp_api.c] [efp_verify_finger:269] [efp_verify_finger] enter 
+05-11 23:00:26.865  2150 28334 I ETS-MAIN: [egistec_fp_api.c] [efp_verify_finger:271] [efp_verify_finger] return = 0 
+05-11 23:00:26.865  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:26.865 25387 25387 I MotoDisplay: pulse - trigger: Type: FINGERPRINT_EVENT is pulsing: true is paused: false
+05-11 23:00:26.865 25387 25387 I MotoDisplay: Acquiring wakelock MotoDisplayWakeLock for 500
+05-11 23:00:26.866 25387 25387 I MotoDisplay: isPulseAllowed - warm up complete: true
+05-11 23:00:26.888 28262 28262 W ResourceType: For resource 0x7f13033a, entry index(826) is beyond type entryCount(335)
+05-11 23:00:26.917 28262 28336 W DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+05-11 23:00:26.922 28262 28336 W zygote  : Skipping duplicate class check due to unrecognized classloader
+05-11 23:00:26.950 28262 28336 W zygote  : Skipping duplicate class check due to unrecognized classloader
+05-11 23:00:27.025  2413  4866 I ActivityManager: Start proc 28338:com.google.android.dialer/u10a32 for broadcast com.google.android.dialer/com.google.android.libraries.internal.growth.growthkit.internal.experiments.impl.PhenotypeBroadcastReceiver
+05-11 23:00:27.143 18852 18852 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService.onStartJob(3): onJobSchedulerWakeup with jobId 9001
+05-11 23:00:27.153 18852 18852 I Finsky  : [2] ped.a(21): Scheduling fallback job with id: 9034, and delay: 43200000 ms
+05-11 23:00:27.157 18852 18852 I Finsky  : [2] ped.a(5): Scheduling fallback in 64799997 (absolute: 201395231)
+05-11 23:00:27.203  7107  7107 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService.onStartJob(3): onJobSchedulerWakeup with jobId 9000
+05-11 23:00:27.204 18852 18852 I Finsky  : [2] pen.handleMessage(10): DeviceState: DeviceState{currentTime=1557633627190, isCharging=true, isIdle=true, netAny=true, netNotRoaming=true, netUnmetered=true}
+05-11 23:00:27.210  7107  7107 I Finsky  : [2] ped.a(21): Scheduling fallback job with id: 9034, and delay: 43200000 ms
+05-11 23:00:27.213 18852 27727 I Finsky  : [5315] pfx.b(7): Jobs in database: 1-1337 10-1 10-3 10-4 10-6 10-7 10-8 10-10 10-11 10-12 10-14 10-15 10-16 10-18 10-20 10-22 10-24 10-25 10-26 10-27 10-28 10-29 10-30 10-31 10-33 10-35 10-36 10-38 10-39 10-40 10-41 10-42 10-44 10-46 10-47 10-48 10-50 10-55 10-57 10-61 12-1 26-1414141414 
+05-11 23:00:27.215  7107  7107 I Finsky  : [2] ped.a(5): Scheduling fallback in 64799997 (absolute: 201395289)
+05-11 23:00:27.217 18852 18852 I Finsky  : [2] pek.a(46): Running job: 12-1
+05-11 23:00:27.227 18852 18852 I Finsky  : [2] com.google.android.finsky.contentsync.ContentSyncJob.a(23): ContentSyncJob started
+05-11 23:00:27.228 18852 18852 I Finsky  : [2] pen.handleMessage(81): RunningQueue size: 1, PendingQueue size: 0
+05-11 23:00:27.228 18852 18852 I Finsky  : [2] pen.handleMessage(90): Running queue: 12-1 
+05-11 23:00:27.231   501   754 W qti_sensors_hal: processReportInd: lux: 3, ch0: 42, ch1: 182
+05-11 23:00:27.239  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:27.246  7107  7107 I Finsky  : [2] pen.handleMessage(10): DeviceState: DeviceState{currentTime=1557633627238, isCharging=true, isIdle=true, netAny=true, netNotRoaming=true, netUnmetered=true}
+05-11 23:00:27.250  7107 27745 I Finsky  : [4693] pfx.b(7): Jobs in database: 1-1337 12-1 26-1414141414 
+05-11 23:00:27.262  7107  7107 I Finsky  : [2] pek.a(46): Running job: 12-1
+05-11 23:00:27.264  7107  7107 I Finsky  : [2] com.google.android.finsky.contentsync.ContentSyncJob.a(23): ContentSyncJob started
+05-11 23:00:27.265  7107  7107 I Finsky  : [2] pen.handleMessage(81): RunningQueue size: 1, PendingQueue size: 0
+05-11 23:00:27.265  7107  7107 I Finsky  : [2] pen.handleMessage(90): Running queue: 12-1 
+05-11 23:00:27.324 28338 28338 I Dialer  : DialerApplication.onCreate - enter
+05-11 23:00:27.326  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:27.332 28338 28338 I Dialer  : ClearcutMetricsInitializer.initialize - enter
+05-11 23:00:27.339 28338 28338 W PrimesInit: Primes instant initialization
+05-11 23:00:27.343 28338 28353 W Primes  : background initialization
+05-11 23:00:27.343 28338 28338 I Dialer  : ClearcutMetricsInitializer.initialize - primes metrics monitoring started!
+05-11 23:00:27.344 28338 28338 I Dialer  : PrimesMetrics.startTimer - Application.onCreate is empty
+05-11 23:00:27.377 28338 28353 I PrimesTesting: GserviceFlagsSupplier.get()
+05-11 23:00:27.413 28338 28338 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+05-11 23:00:27.415 28338 28360 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+05-11 23:00:27.416  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:27.440 28338 28338 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+05-11 23:00:27.440 28338 28338 I Dialer  : DialerApplication.initializeAnnotatedCallLog - enter
+05-11 23:00:27.444 28338 28338 I Dialer  : DuoModule.provideDuo - force enabled by flag, returning impl
+05-11 23:00:27.511  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:27.518  7107 27855 I Finsky  : [4698] dff.a(5): Completed 0 account content syncs with 0 successful.
+05-11 23:00:27.519  7107  7107 I Finsky  : [2] com.google.android.finsky.contentsync.ContentSyncJob.a(21): Installation state replication succeeded.
+05-11 23:00:27.520  7107  7107 I Finsky  : [2] pfu.a(11): jobFinished: 12-1. TimeElapsed: 258ms
+05-11 23:00:27.523   501   754 W qti_sensors_hal: processReportInd: lux: 11, ch0: 31, ch1: 421
+05-11 23:00:27.527  7107  7107 I Finsky  : [2] pek.a(10): Job 12-1 finished
+05-11 23:00:27.528  7107  7107 I Finsky  : [2] pen.handleMessage(81): RunningQueue size: 0, PendingQueue size: 0
+05-11 23:00:27.529  7107  7107 I Finsky  : [2] pen.handleMessage(27): Executor finished
+05-11 23:00:27.529  2413  5565 I ActivityManager: Start proc 28369:android.process.acore/u10a8 for content provider com.android.providers.blockednumber/.BlockedNumberProvider
+05-11 23:00:27.574 28338 28338 I Dialer  : SpamModule.provideSpam - using composite spam
+05-11 23:00:27.597  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:27.624  7107  7107 I Finsky  : [2] pfx.b(7): Jobs in database: 1-1337 26-1414141414 
+05-11 23:00:27.633 28338 28338 I Dialer  : SpamModule.provideSpam - using composite spam
+05-11 23:00:27.648  7107  7107 I Finsky  : [2] pdk.a(66): ConstraintMapping: 1-1337,  -> L: 24210778ms, D: 67410778ms, C: false, I: false, N: NET_ANY
+05-11 23:00:27.648  7107  7107 I Finsky  : [2] pdk.a(66): ConstraintMapping: 26-1414141414,  -> L: 37914782ms, D: 38814782ms, C: false, I: false, N: NET_NONE
+05-11 23:00:27.649  7107  7107 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(42): Cancelling existing job with id: 9003
+05-11 23:00:27.655  7107  7107 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(4): Scheduling job Id: 9001, L: 24210778, D: 67410778, C: false, I: false, N: 1
+05-11 23:00:27.656  7107  7107 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(4): Scheduling job Id: 9002, L: 37914782, D: 38814782, C: false, I: false, N: 0
+05-11 23:00:27.686  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:27.692 28338 28338 I Dialer  : SpamModule.provideSpam - using composite spam
+05-11 23:00:27.723 28338 28338 I Dialer  : SpamModule.provideSpam - using composite spam
+05-11 23:00:27.726 28338 28338 I Dialer  : DialerApplication.initializeAnnotatedCallLog - framework not enabled
+05-11 23:00:27.728 28338 28386 I Dialer  : CallLogConfigImpl.schedulePollingJob - scheduling
+05-11 23:00:27.742 28338 28338 I Dialer  : NonUiTaskBuilder.newThread - creating serial thread
+05-11 23:00:27.743 28338 28338 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+05-11 23:00:27.749 28338 28338 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+05-11 23:00:27.754 28338 28338 I Dialer  : ShortcutsJobScheduler.scheduleAllJobs - enter
+05-11 23:00:27.758 28338 28338 I Dialer  : ShortcutsJobScheduler.scheduleAllJobs - enabling shortcuts
+05-11 23:00:27.759 28338 28338 I Dialer  : PeriodicJobService.schedulePeriodicJob - enter
+05-11 23:00:27.760 28338 28338 I Dialer  : PeriodicJobService.schedulePeriodicJob - job already scheduled.
+05-11 23:00:27.774  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:27.783 28338 28392 I Dialer  : SpamJobScheduler.scheduleJob - job with id SPAM_JOB_WIFI is already scheduled
+05-11 23:00:27.785 28338 28392 I Dialer  : SpamJobScheduler.scheduleJob - job with id SPAM_JOB_ANY_NETWORK is already scheduled
+05-11 23:00:27.791 28369 28369 I ContactsPerf: VoicemailContentProvider.onCreate start
+05-11 23:00:27.807 28369 28369 I ContactsPerf: VoicemailContentProvider.onCreate finish
+05-11 23:00:27.815   501   754 W qti_sensors_hal: processReportInd: lux: 6, ch0: 58, ch1: 259
+05-11 23:00:27.853 28338 28390 I Dialer  : WhisperCallScreenModule - returning CallScreenManagerStub
+05-11 23:00:27.866  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:27.866 28338 28364 I Dialer  : BlockedNumbersAutoMigrator - not attempting auto-migrate: current user can't block
+05-11 23:00:27.866 28369 28391 D ContactsDatabaseHelper: WAL enabled for contacts2.db: true
+05-11 23:00:27.974 28338 28338 I Dialer  : Flags.register - phenotype register status: true
+05-11 23:00:28.009 28369 28391 I ContactLocale: AddressBook Labels [[es_US,en_US]]: […, A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, …, А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, …, א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, …, ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, …, ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, …, ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, …, あ, か, さ, た, な, は, ま, や, ら, わ, #, …]
+05-11 23:00:28.044  2150 28398 I FingerprintHal: [fingerprint.c] [do_event_status:346] CAPTURE_WAIT_FINGER_ON 
+05-11 23:00:28.044  2150 28399 I FingerprintHal: [fingerprint.c] [do_event_status:355] WAKE_UNLOCK 
+05-11 23:00:28.060 28338 28389 I Dialer  : WhisperCallScreenModule - returning CallScreenManagerStub
+05-11 23:00:28.061 28338 28338 I Dialer  : Flags.register - commit succeeded: true
+05-11 23:00:28.062 28369 28391 D ContactsDatabaseHelper: WAL enabled for profile.db: true
+05-11 23:00:28.107   501   754 W qti_sensors_hal: processReportInd: lux: 20, ch0: 37, ch1: 695
+05-11 23:00:28.110 28338 28389 I Dialer  : WhisperCallScreenModule - returning CallScreenManagerStub
+05-11 23:00:28.111 28338 28338 I Dialer  : UpdateBroadcastReceiver.onReceive - commit succeeded: true
+05-11 23:00:28.141 27856 27856 D PhenotypeUpdateService: onCreate called
+05-11 23:00:28.150 27856 28401 D PhenotypeUpdateService: Updating Phenotype configs
+05-11 23:00:28.180  5728  5728 I PhenotypeUpdate: onReceive() urgent = false
+05-11 23:00:28.210  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:28.213  2150 28407 I FingerprintHal: [fingerprint.c] [do_event_status:350] WAKE_LOCK 
+05-11 23:00:28.225  2413  4866 I ActivityManager: Start proc 28408:com.google.android.gms.ui/u10a27 for service com.google.android.gms/.chimera.UiIntentOperationService
+05-11 23:00:28.337  2150 28427 I FingerprintHal: [fingerprint.c] [do_event_status:355] WAKE_UNLOCK 
+05-11 23:00:28.389 18852 18852 I Finsky  : [2] dff.a(5): Completed 3 account content syncs with 3 successful.
+05-11 23:00:28.390  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:28.390  2150 28432 I FingerprintHal: [fingerprint.c] [do_event_status:350] WAKE_LOCK 
+05-11 23:00:28.397 18852 18852 I Finsky  : [2] com.google.android.finsky.contentsync.ContentSyncJob.a(21): Installation state replication succeeded.
+05-11 23:00:28.398 18852 18852 I Finsky  : [2] pfu.a(11): jobFinished: 12-1. TimeElapsed: 1180ms
+05-11 23:00:28.398 18852 18852 I Finsky  : [2] pek.a(10): Job 12-1 finished
+05-11 23:00:28.400 18852 18852 I Finsky  : [2] pen.handleMessage(81): RunningQueue size: 0, PendingQueue size: 0
+05-11 23:00:28.400 18852 18852 I Finsky  : [2] pen.handleMessage(27): Executor finished
+05-11 23:00:28.429  2413  3026 I ActivityManager: Start proc 28434:com.google.android.apps.messaging/u10a101 for broadcast com.google.android.apps.messaging/.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver
+05-11 23:00:28.474 18852 18852 I Finsky  : [2] pfx.b(7): Jobs in database: 1-1337 10-1 10-3 10-4 10-6 10-7 10-8 10-10 10-11 10-12 10-14 10-15 10-16 10-18 10-20 10-22 10-24 10-25 10-26 10-27 10-28 10-29 10-30 10-31 10-33 10-35 10-36 10-38 10-39 10-40 10-41 10-42 10-44 10-46 10-47 10-48 10-50 10-55 10-57 10-61 26-1414141414 
+05-11 23:00:28.476 18852 18852 I Finsky  : [2] pdk.a(66): ConstraintMapping: 1-1337, 10-1, 10-3, 10-4, 10-6, 10-7, 10-8, 10-10, 10-11, 10-12, 10-14, 10-15, 10-16, 10-18, 10-20, 10-22, 10-24, 10-25, 10-26, 10-27, 10-28, 10-29, 10-30, 10-31, 10-33, 10-35, 10-36, 10-38, 10-39, 10-40, 10-41, 10-42, 10-44, 10-46, 10-47, 10-48, 10-50, 10-55, 10-57, 10-61,  -> L: 25771862ms, D: 68971862ms, C: false, I: false, N: NET_ANY
+05-11 23:00:28.476 18852 18852 I Finsky  : [2] pdk.a(66): ConstraintMapping: 26-1414141414,  -> L: 39151990ms, D: 40051990ms, C: false, I: false, N: NET_NONE
+05-11 23:00:28.479 18852 18852 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(42): Cancelling existing job with id: 9002
+05-11 23:00:28.504 18852 18852 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(4): Scheduling job Id: 9000, L: 25771862, D: 68971862, C: false, I: false, N: 1
+05-11 23:00:28.506 18852 18852 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(4): Scheduling job Id: 9003, L: 39151990, D: 40051990, C: false, I: false, N: 0
+05-11 23:00:28.580 28408 28408 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+05-11 23:00:28.608 28408 28408 W ProviderHelper: Unknown dynamite feature providerinstaller
+05-11 23:00:28.610 28408 28408 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
+05-11 23:00:28.611 28408 28408 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+05-11 23:00:28.627 28408 28408 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 284 native methods...
+05-11 23:00:28.642  2150 28451 I FingerprintHal: [fingerprint.c] [do_event_status:355] WAKE_UNLOCK 
+05-11 23:00:28.674 28408 28408 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+05-11 23:00:28.678 28408 28408 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+05-11 23:00:28.691   501   754 W qti_sensors_hal: processReportInd: lux: 29, ch0: 37, ch1: 940
+05-11 23:00:28.790  2413  2433 I zygote  : Background concurrent copying GC freed 56426(3MB) AllocSpace objects, 16(1392KB) LOS objects, 42% free, 22MB/39MB, paused 672us total 359.980ms
+05-11 23:00:28.870 28408 28408 W Primes  : Primes not initialized, returning default (no-op) Primes instance which will ignore all calls. Please call Primes.initialize(...) before using any Primes API.
+05-11 23:00:28.913   550   817 I SFPerfTracer:      triggers: (rate: 0:0) (48481 sw vsyncs) (0 skipped) (155:1153229 vsyncs) (157:1367460)
+05-11 23:00:28.936  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:28.960  2150 28458 I FingerprintHal: [fingerprint.c] [do_event_status:350] WAKE_LOCK 
+05-11 23:00:29.016 28434 28434 I MultiDex: VM with version 2.1.0 has multidex support
+05-11 23:00:29.023 28434 28434 I MultiDex: install
+05-11 23:00:29.023 28434 28434 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+05-11 23:00:29.197 28434 28434 D FirebaseApp: com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+05-11 23:00:29.198 28434 28434 D FirebaseApp: com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+05-11 23:00:29.260 28434 28434 I FirebaseInitProvider: FirebaseApp initialization successful
+05-11 23:00:29.370  5771  5782 I zygote  : Background concurrent copying GC freed 141760(7MB) AllocSpace objects, 63(3MB) LOS objects, 50% free, 6MB/12MB, paused 585us total 151.132ms
+05-11 23:00:29.411 28434 28469 I Bugle   : GServicesValues:
+05-11 23:00:29.411 28434 28469 I Bugle   : bugle_enable_primes_crash_metrics: true
+05-11 23:00:29.411 28434 28469 I Bugle   : bugle_enable_wap_push_si: true
+05-11 23:00:29.411 28434 28469 I Bugle   : bugle_max_telemetry_upload_retries: 10
+05-11 23:00:29.411 28434 28469 I Bugle   : bugle_rcs_mcc_mnc: 334020
+05-11 23:00:29.411 28434 28469 I Bugle   : bugle_rcs_otp_length: 6
+05-11 23:00:29.411 28434 28469 I Bugle   : bugle_rcs_otp_pattern: Your\senhanced\smessaging\sactivation\scode\sis:\s\((\d{6})\)
+05-11 23:00:29.411 28434 28469 I Bugle   : bugle_rcs_provisioning_imei_format: 0
+05-11 23:00:29.411 28434 28469 I Bugle   : bugle_rcs_provisioning_imsi_format: 0
+05-11 23:00:29.411 28434 28469 I Bugle   : bugle_rcs_sms_port: 0
+05-11 23:00:29.411 28434 28469 I Bugle   : bugle_sticker_set_list_version: 3
+05-11 23:00:29.472 28434 28434 I Bugle   : Initializing EmojiCompat
+05-11 23:00:29.482 28434 28434 I Bugle   : BugleApplicationBase: Bugle version: 4.2.069 (fairie_rc18_xhdpi.armeabi-v7a.phone)
+05-11 23:00:29.491 28434 28434 I Bugle   : DarkModeUtilImpl: Setting system dark mode to off
+05-11 23:00:29.495 25885 25897 I FontsContentProvider: Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts
+05-11 23:00:29.496 25885 25897 I FontsContentProvider: Query [Noto Color Emoji Compat] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}
+05-11 23:00:29.503 25885 25897 I FontsContentProvider: Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+05-11 23:00:29.505 28434 28434 W PrimesInit: Primes instant initialization
+05-11 23:00:29.507 28434 28479 W Primes  : background initialization
+05-11 23:00:29.520 28434 28467 I FA      : App measurement is starting up, version: 15300
+05-11 23:00:29.521 28434 28467 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+05-11 23:00:29.523 28434 28467 I FA      : To enable faster debug mode event logging run:
+05-11 23:00:29.523 28434 28467 I FA      :   adb shell setprop debug.firebase.analytics.app com.google.android.apps.messaging
+05-11 23:00:29.532 25885 25897 I FontsContentProvider: Pulling font file for id = 2, cache size = 1
+05-11 23:00:29.540 28434 28483 I Bugle   : BuglePhenotypeBroadcastReceiver.onReceive
+05-11 23:00:29.544 28434 28479 I PrimesTesting: GserviceFlagsSupplier.get()
+05-11 23:00:29.551  2413  4863 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=28434 uid=1010101 pkg=com.google.android.apps.messaging
+05-11 23:00:29.557 28434 28434 W BugleDataModel: ActionExecutorImpl: Action started execution, but we can't guarantee it will complete, the app may be killed. Action: class com.google.android.apps.messaging.shared.datamodel.action.CountryCodeDetectorAction-CountryCodeDetectorAction:136597522003
+05-11 23:00:29.557 28434 28434 W BugleDataModel: java.lang.IllegalStateException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService }: app is in background uid UidRecord{9252035 u10a101 RCVR idle procs:1 seq(0,0,0)}
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1520)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at android.app.ContextImpl.startService(ContextImpl.java:1476)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at android.content.ContextWrapper.startService(ContextWrapper.java:644)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(SourceFile:21)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.b(SourceFile:18)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at dxb.c(SourceFile:129)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at dxb.a(SourceFile:79)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at dwi.b(SourceFile:56)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at dwi.a(SourceFile:23)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.common.ThrottledAction.schedule(SourceFile:37)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at dhe.a(SourceFile:4)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at gat.a(SourceFile:6)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at fsr.onReceive(SourceFile:12)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at gbx.onReceive(SourceFile:5)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at gat.onReceive(SourceFile:8)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$-android_app_LoadedApk$ReceiverDispatcher$Args_51615(LoadedApk.java:1304)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at android.app.-$Lambda$FilBqgnXJrN9Mgyks1XHeAxzSTk.$m$0(Unknown Source:4)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at android.app.-$Lambda$FilBqgnXJrN9Mgyks1XHeAxzSTk.run(Unknown Source:0)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at android.app.ActivityThread.main(ActivityThread.java:6694)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at java.lang.reflect.Method.invoke(Native Method)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-11 23:00:29.557 28434 28434 W BugleDataModel: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:769)
+05-11 23:00:29.557 28434 28434 I BugleAction: ActionSchedulerImpl: class com.google.android.apps.messaging.shared.datamodel.action.CountryCodeDetectorAction-CountryCodeDetectorAction:136597522003 deferred since it was started from unsafe context
+05-11 23:00:29.591 28434 28434 I Bugle   : Carrier config changed. Reloading MMS config.
+05-11 23:00:29.609  2413  8216 I ActivityManager: Start proc 28489:com.google.android.apps.messaging:rcs/u10a101 for broadcast com.google.android.apps.messaging/com.google.android.ims.library.phenotype.PhenotypeConfigurationReceiver
+05-11 23:00:29.626 25885 26329 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.apps.messaging componentName=null serviceId=SEARCH_QUERIES
+05-11 23:00:29.659  2413  4866 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=28434 uid=1010101 pkg=com.google.android.apps.messaging
+05-11 23:00:29.662 25885 25896 I FontsContentProvider: Pulling font file for id = 2, cache size = 1
+05-11 23:00:29.707  2150 28503 I FingerprintHal: [fingerprint.c] [do_event_status:355] WAKE_UNLOCK 
+05-11 23:00:29.721 28434 28469 W Bugle   : BuglePhoneNumberUtils: canonicalizeMccMnc: invalid mccmnc. mcc: null, mnc: null
+05-11 23:00:29.730 28434 28469 W Bugle   : BuglePhoneNumberUtils: canonicalizeMccMnc: invalid mccmnc. mcc: null, mnc: null
+05-11 23:00:29.745 25885 26402 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+05-11 23:00:29.774 28434 28469 I Bugle   : Carrier configs loaded: Bundle[{carrier_volte_provisioned_bool=false, httpSocketTimeout=60000, carrier_wfc_supports_wifi_only_bool=false, operator_selection_expand_bool=true, disable_cdma_activation_code_bool=false, simplified_network_settings_bool=false, carrier_default_wfc_ims_roaming_enabled_bool=false, cdma_nonroaming_networks_string_array=null, aliasMinChars=2, wfc_data_spn_format_idx_int=0, hide_sim_lock_settings_bool=false, drop_video_call_when_answering_audio_call_bool=false, check_reg_state_for_apn_protocol=false, ci_action_on_sys_update_bool=false, smsUsesSimpleCharactersOnly=true, vvm_port_number_int=0, carrier_default_wfc_ims_enabled_bool=false, dial_string_replace_string_array=null, gsm_nonroaming_networks_string_array=null, hide_ims_apn_bool=true, vvm_destination_number_string=, dtmf_type_enabled_bool=false, config_ims_package_override_string=com.google.android.ims, smsToMmsTextThreshold=6, disable_severe_when_extreme_disabled_bool=true, force_home_network_bool=false, enableSMSDeliveryReports=true, auto_retry_enabled_bool=false, carrier_force_disable_etws_cmas_test_bool=false, allow_emergency_video_calls_bool=false, csp_enabled_bool=false, default_sim_call_manager_string=, mmsRoamingAutoRetrieveByDefault=false, call_forwarding_blocks_while_roaming_string_array=null, support_video_conference_call_bool=false, ims_dtmf_tone_delay_int=0, moto_mt_sms_filter_list=null, carrier_instant_lettering_escaped_chars_string=, carrier_default_wfc_ims_roaming_mode_int=2, editable_wfc_mode_bool=true, support_direct_fdn_dialing_bool=false, new_apn_read_only_apn_fields_string_array=null, carrier_wifi_string_array=null, treat_downgraded_video_calls_as_video_calls_bool=false, wifi_calls_can_be_hd_audio=true, support_downgrade_vt_to_audio_bool=true, use_otasp_for_provisioning_bool=false, maxMessageTextSize=-1, moto_show_brazil_settings=false, duration_blocking_disabled_after_emergency_int=7200, carrier_metered_roaming_apn_types_strings=[Ljava.lang.String;@5f3da3d, show_apn_setting_cdma_bool=false, carrier_instant_lettering_length_limit_int=64, smsEncodingChangeable=true, carrier_instant_lettering_invalid_chars_string=, carrier_setup_app_string=, editable_wfc_roaming_mode_bool=false, supportMmsContentDisposition=true, allow_non_emergency_calls_in_ecm_bool=true, use_rcs_presence_bool=false, cdma_dtmf_tone_delay_int=100, editable_voicemail_number_bool=false, filtered_cnap_names_string_array=null, enabledTransID=false, aliasEnabled=false, vvm_disabled_capabilities_string_array=null, moto_back_to_auto_network_selection_timer=-1, ims_conference_size_limit_int=5, supportHttpCharsetHeader=false, ascii_7_bit_support_for_long_message=false, allow_video_call_in_low_battery=true, vvm_prefetch_bool=true, hide_enhanced_4g_lte_bool=false, display_hd_audio_property_bool=true, has_in_call_noise_suppression_bool=false, voicemail_notification_persistent_bool=false, carrier_default_actions_on_reset_string_array=[Ljava.lang.String;@d80b232, world_phone_bool=false, ims_reasoninfo_mapping_string_array=null, default_vm_number_string=, data_limit_threshold_bytes_long=-1, allowAttachAudio=true, ci_action_on_sys_update_extra_string=, ignore_sim_network_locked_events_bool=false, notify_international_call_on_wfc_bool=false, carrier_instant_lettering_available_bool=false, stk_disable_launch_browser_bool=false, carrier_use_ims_first_for_emergency_bool=true, carrier_vt_available_bool=false, smsToMmsTextLengthThreshold=-1, config_wifi_disable_in_ecbm=false, ci_action_on_sys_update_intent_string=, moto_hide_non_user_apn_edit_delete_bool=false, additional_call_setting_bool=true, carrier_app_no_wake_signal_config=null, sms_requires_destination_number_conversion_bool=false, carrier_default_actions_on_redirection_string_array=[Ljava.lang.String;@ac34b83, support_swap_after_merge_bool=false, recipientLimit=20, moto_enable_service_dialing_number=true, groupChatDefaultsToMMS=false, carrier_default_enhanced_4g_mode_enabled_bool=true, notify_vt_handover_to_wifi_failure_bool=false, gsm_dtmf_tone_delay_int=0, show_onscreen_dial_button_boo
+05-11 23:00:29.812 28434 28486 W Bugle   : BuglePhoneNumberUtils: canonicalizeMccMnc: invalid mccmnc. mcc: null, mnc: null
+05-11 23:00:29.820 28434 28486 W Bugle   : BuglePhoneNumberUtils: canonicalizeMccMnc: invalid mccmnc. mcc: null, mnc: null
+05-11 23:00:29.828 28489 28489 I MultiDex: VM with version 2.1.0 has multidex support
+05-11 23:00:29.828 28489 28489 I MultiDex: install
+05-11 23:00:29.828 28489 28489 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+05-11 23:00:29.829 28434 28486 I Bugle   : Carrier configs loaded: Bundle[{carrier_volte_provisioned_bool=false, httpSocketTimeout=60000, carrier_wfc_supports_wifi_only_bool=false, operator_selection_expand_bool=true, disable_cdma_activation_code_bool=false, simplified_network_settings_bool=false, carrier_default_wfc_ims_roaming_enabled_bool=false, cdma_nonroaming_networks_string_array=null, aliasMinChars=2, wfc_data_spn_format_idx_int=0, hide_sim_lock_settings_bool=false, drop_video_call_when_answering_audio_call_bool=false, check_reg_state_for_apn_protocol=false, ci_action_on_sys_update_bool=false, smsUsesSimpleCharactersOnly=true, vvm_port_number_int=0, carrier_default_wfc_ims_enabled_bool=false, dial_string_replace_string_array=null, gsm_nonroaming_networks_string_array=null, hide_ims_apn_bool=true, vvm_destination_number_string=, dtmf_type_enabled_bool=false, config_ims_package_override_string=com.google.android.ims, smsToMmsTextThreshold=6, disable_severe_when_extreme_disabled_bool=true, force_home_network_bool=false, enableSMSDeliveryReports=true, auto_retry_enabled_bool=false, carrier_force_disable_etws_cmas_test_bool=false, allow_emergency_video_calls_bool=false, csp_enabled_bool=false, default_sim_call_manager_string=, mmsRoamingAutoRetrieveByDefault=false, call_forwarding_blocks_while_roaming_string_array=null, support_video_conference_call_bool=false, ims_dtmf_tone_delay_int=0, moto_mt_sms_filter_list=null, carrier_instant_lettering_escaped_chars_string=, carrier_default_wfc_ims_roaming_mode_int=2, editable_wfc_mode_bool=true, support_direct_fdn_dialing_bool=false, new_apn_read_only_apn_fields_string_array=null, carrier_wifi_string_array=null, treat_downgraded_video_calls_as_video_calls_bool=false, wifi_calls_can_be_hd_audio=true, support_downgrade_vt_to_audio_bool=true, use_otasp_for_provisioning_bool=false, maxMessageTextSize=-1, moto_show_brazil_settings=false, duration_blocking_disabled_after_emergency_int=7200, carrier_metered_roaming_apn_types_strings=[Ljava.lang.String;@128d4de, show_apn_setting_cdma_bool=false, carrier_instant_lettering_length_limit_int=64, smsEncodingChangeable=true, carrier_instant_lettering_invalid_chars_string=, carrier_setup_app_string=, editable_wfc_roaming_mode_bool=false, supportMmsContentDisposition=true, allow_non_emergency_calls_in_ecm_bool=true, use_rcs_presence_bool=false, cdma_dtmf_tone_delay_int=100, editable_voicemail_number_bool=false, filtered_cnap_names_string_array=null, enabledTransID=false, aliasEnabled=false, vvm_disabled_capabilities_string_array=null, moto_back_to_auto_network_selection_timer=-1, ims_conference_size_limit_int=5, supportHttpCharsetHeader=false, ascii_7_bit_support_for_long_message=false, allow_video_call_in_low_battery=true, vvm_prefetch_bool=true, hide_enhanced_4g_lte_bool=false, display_hd_audio_property_bool=true, has_in_call_noise_suppression_bool=false, voicemail_notification_persistent_bool=false, carrier_default_actions_on_reset_string_array=[Ljava.lang.String;@f276bf, world_phone_bool=false, ims_reasoninfo_mapping_string_array=null, default_vm_number_string=, data_limit_threshold_bytes_long=-1, allowAttachAudio=true, ci_action_on_sys_update_extra_string=, ignore_sim_network_locked_events_bool=false, notify_international_call_on_wfc_bool=false, carrier_instant_lettering_available_bool=false, stk_disable_launch_browser_bool=false, carrier_use_ims_first_for_emergency_bool=true, carrier_vt_available_bool=false, smsToMmsTextLengthThreshold=-1, config_wifi_disable_in_ecbm=false, ci_action_on_sys_update_intent_string=, moto_hide_non_user_apn_edit_delete_bool=false, additional_call_setting_bool=true, carrier_app_no_wake_signal_config=null, sms_requires_destination_number_conversion_bool=false, carrier_default_actions_on_redirection_string_array=[Ljava.lang.String;@e24f18c, support_swap_after_merge_bool=false, recipientLimit=20, moto_enable_service_dialing_number=true, groupChatDefaultsToMMS=false, carrier_default_enhanced_4g_mode_enabled_bool=true, notify_vt_handover_to_wifi_failure_bool=false, gsm_dtmf_tone_delay_int=0, show_onscreen_dial_button_bool
+05-11 23:00:29.854  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:29.854  2150 28507 I FingerprintHal: [fingerprint.c] [do_event_status:350] WAKE_LOCK 
+05-11 23:00:29.866  5771  6345 E amsk    : Phenotype API error. Event # bulq@309c5ed, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-11 23:00:29.866  5771  6345 E amsk    : amqy: 29503
+05-11 23:00:29.866  5771  6345 E amsk    : 	at amsr.b(:com.google.android.gms@17122017@17.1.22 (040306-245988633):3)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at amsl.a(:com.google.android.gms@17122017@17.1.22 (040306-245988633):6)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at amsm.b(Unknown Source:2)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at amsk.a(:com.google.android.gms@17122017@17.1.22 (040306-245988633):72)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at amsk.a(:com.google.android.gms@17122017@17.1.22 (040306-245988633):67)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at zwc.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):19)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at bhlo.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):2)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at sed.b(:com.google.android.gms@17122017@17.1.22 (040306-245988633):29)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at sed.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):21)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at skl.run(Unknown Source:7)
+05-11 23:00:29.866  5771  6345 E amsk    : 	at java.lang.Thread.run(Thread.java:764)
+05-11 23:00:29.867  5771  6345 E AsyncOperation: serviceID=51, operation=CommitToConfigurationOperationCall
+05-11 23:00:29.867  5771  6345 E AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+05-11 23:00:29.867  5771  6345 E AsyncOperation: 	at amsk.a(:com.google.android.gms@17122017@17.1.22 (040306-245988633):80)
+05-11 23:00:29.867  5771  6345 E AsyncOperation: 	at amsk.a(:com.google.android.gms@17122017@17.1.22 (040306-245988633):67)
+05-11 23:00:29.867  5771  6345 E AsyncOperation: 	at zwc.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):19)
+05-11 23:00:29.867  5771  6345 E AsyncOperation: 	at bhlo.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):2)
+05-11 23:00:29.867  5771  6345 E AsyncOperation: 	at sed.b(:com.google.android.gms@17122017@17.1.22 (040306-245988633):29)
+05-11 23:00:29.867  5771  6345 E AsyncOperation: 	at sed.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):21)
+05-11 23:00:29.867  5771  6345 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-11 23:00:29.867  5771  6345 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-11 23:00:29.867  5771  6345 E AsyncOperation: 	at skl.run(Unknown Source:7)
+05-11 23:00:29.867  5771  6345 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-11 23:00:29.908 28489 28508 I Bugle   : GServicesValues:
+05-11 23:00:29.908 28489 28508 I Bugle   : bugle_enable_primes_crash_metrics: true
+05-11 23:00:29.908 28489 28508 I Bugle   : bugle_enable_wap_push_si: true
+05-11 23:00:29.908 28489 28508 I Bugle   : bugle_max_telemetry_upload_retries: 10
+05-11 23:00:29.908 28489 28508 I Bugle   : bugle_rcs_mcc_mnc: 334020
+05-11 23:00:29.908 28489 28508 I Bugle   : bugle_rcs_otp_length: 6
+05-11 23:00:29.908 28489 28508 I Bugle   : bugle_rcs_otp_pattern: Your\senhanced\smessaging\sactivation\scode\sis:\s\((\d{6})\)
+05-11 23:00:29.908 28489 28508 I Bugle   : bugle_rcs_provisioning_imei_format: 0
+05-11 23:00:29.908 28489 28508 I Bugle   : bugle_rcs_provisioning_imsi_format: 0
+05-11 23:00:29.908 28489 28508 I Bugle   : bugle_rcs_sms_port: 0
+05-11 23:00:29.908 28489 28508 I Bugle   : bugle_sticker_set_list_version: 3
+05-11 23:00:29.922 28489 28489 W BugleStartup: StartupHandler: ContentProvider startup tasks did not execute before Application onCreate(), executed in onApplicationCreated().
+05-11 23:00:29.927 28489 28489 I Bugle   : BugleApplicationBase: Bugle version: 4.2.069 (fairie_rc18_xhdpi.armeabi-v7a.phone)
+05-11 23:00:30.038 28434 28471 W native  : commandlineflags.cc:983 Ignoring RegisterValidateFunction() for flag pointer 0x91fe4760: no flag found at that address
+05-11 23:00:30.048 28434 28471 W native  : commandlineflags.cc:983 Ignoring RegisterValidateFunction() for flag pointer 0x9396ce30: no flag found at that address
+05-11 23:00:30.072 28434 28471 W native  : commandlineflags.cc:983 Ignoring RegisterValidateFunction() for flag pointer 0x91c22ff0: no flag found at that address
+05-11 23:00:30.138 28434 28471 W native  : commandlineflags.cc:983 Ignoring RegisterValidateFunction() for flag pointer 0x91b19ac0: no flag found at that address
+05-11 23:00:30.163 28434 28477 I BugleRcsEngine: [5644] opx.a: Initializing SimStateTracker
+05-11 23:00:30.174 28434 28520 E Bugle   : dhg: cannot find field mOpenParamsBuilder
+05-11 23:00:30.174 28434 28520 E Bugle   : java.lang.NoSuchFieldException: No field mOpenParamsBuilder in class Landroid/database/sqlite/SQLiteOpenHelper; (declaration of 'android.database.sqlite.SQLiteOpenHelper' appears in /system/framework/framework.jar)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at java.lang.Class.getDeclaredField(Native Method)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at dhg.<init>(SourceFile:12)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at ezi.a(SourceFile:6)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at wcz.a(SourceFile:9)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at dhd.c(SourceFile:19)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at dyr.run(SourceFile:5)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at fxy.a(SourceFile:65)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at fya.run(Unknown Source:1)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-11 23:00:30.174 28434 28520 E Bugle   : 	at java.lang.Thread.run(Thread.java:764)
+05-11 23:00:30.193 28434 28477 W Bugle   : BuglePhoneNumberUtils: canonicalizeMccMnc: invalid mccmnc. mcc: null, mnc: null
+05-11 23:00:30.197 28489 28509 W native  : commandlineflags.cc:983 Ignoring RegisterValidateFunction() for flag pointer 0x93867760: no flag found at that address
+05-11 23:00:30.198 28434 28477 W Bugle   : BuglePhoneNumberUtils: canonicalizeMccMnc: invalid mccmnc. mcc: null, mnc: null
+05-11 23:00:30.201 28489 28509 W native  : commandlineflags.cc:983 Ignoring RegisterValidateFunction() for flag pointer 0x933eae30: no flag found at that address
+05-11 23:00:30.208 28434 28477 I Bugle   : Carrier configs loaded: Bundle[{carrier_volte_provisioned_bool=false, httpSocketTimeout=60000, carrier_wfc_supports_wifi_only_bool=false, operator_selection_expand_bool=true, disable_cdma_activation_code_bool=false, simplified_network_settings_bool=false, carrier_default_wfc_ims_roaming_enabled_bool=false, cdma_nonroaming_networks_string_array=null, aliasMinChars=2, wfc_data_spn_format_idx_int=0, hide_sim_lock_settings_bool=false, drop_video_call_when_answering_audio_call_bool=false, check_reg_state_for_apn_protocol=false, ci_action_on_sys_update_bool=false, smsUsesSimpleCharactersOnly=true, vvm_port_number_int=0, carrier_default_wfc_ims_enabled_bool=false, dial_string_replace_string_array=null, gsm_nonroaming_networks_string_array=null, hide_ims_apn_bool=true, vvm_destination_number_string=, dtmf_type_enabled_bool=false, config_ims_package_override_string=com.google.android.ims, smsToMmsTextThreshold=6, disable_severe_when_extreme_disabled_bool=true, force_home_network_bool=false, enableSMSDeliveryReports=true, auto_retry_enabled_bool=false, carrier_force_disable_etws_cmas_test_bool=false, allow_emergency_video_calls_bool=false, csp_enabled_bool=false, default_sim_call_manager_string=, mmsRoamingAutoRetrieveByDefault=false, call_forwarding_blocks_while_roaming_string_array=null, support_video_conference_call_bool=false, ims_dtmf_tone_delay_int=0, moto_mt_sms_filter_list=null, carrier_instant_lettering_escaped_chars_string=, carrier_default_wfc_ims_roaming_mode_int=2, editable_wfc_mode_bool=true, support_direct_fdn_dialing_bool=false, new_apn_read_only_apn_fields_string_array=null, carrier_wifi_string_array=null, treat_downgraded_video_calls_as_video_calls_bool=false, wifi_calls_can_be_hd_audio=true, support_downgrade_vt_to_audio_bool=true, use_otasp_for_provisioning_bool=false, maxMessageTextSize=-1, moto_show_brazil_settings=false, duration_blocking_disabled_after_emergency_int=7200, carrier_metered_roaming_apn_types_strings=[Ljava.lang.String;@5c98eee, show_apn_setting_cdma_bool=false, carrier_instant_lettering_length_limit_int=64, smsEncodingChangeable=true, carrier_instant_lettering_invalid_chars_string=, carrier_setup_app_string=, editable_wfc_roaming_mode_bool=false, supportMmsContentDisposition=true, allow_non_emergency_calls_in_ecm_bool=true, use_rcs_presence_bool=false, cdma_dtmf_tone_delay_int=100, editable_voicemail_number_bool=false, filtered_cnap_names_string_array=null, enabledTransID=false, aliasEnabled=false, vvm_disabled_capabilities_string_array=null, moto_back_to_auto_network_selection_timer=-1, ims_conference_size_limit_int=5, supportHttpCharsetHeader=false, ascii_7_bit_support_for_long_message=false, allow_video_call_in_low_battery=true, vvm_prefetch_bool=true, hide_enhanced_4g_lte_bool=false, display_hd_audio_property_bool=true, has_in_call_noise_suppression_bool=false, voicemail_notification_persistent_bool=false, carrier_default_actions_on_reset_string_array=[Ljava.lang.String;@a728f8f, world_phone_bool=false, ims_reasoninfo_mapping_string_array=null, default_vm_number_string=, data_limit_threshold_bytes_long=-1, allowAttachAudio=true, ci_action_on_sys_update_extra_string=, ignore_sim_network_locked_events_bool=false, notify_international_call_on_wfc_bool=false, carrier_instant_lettering_available_bool=false, stk_disable_launch_browser_bool=false, carrier_use_ims_first_for_emergency_bool=true, carrier_vt_available_bool=false, smsToMmsTextLengthThreshold=-1, config_wifi_disable_in_ecbm=false, ci_action_on_sys_update_intent_string=, moto_hide_non_user_apn_edit_delete_bool=false, additional_call_setting_bool=true, carrier_app_no_wake_signal_config=null, sms_requires_destination_number_conversion_bool=false, carrier_default_actions_on_redirection_string_array=[Ljava.lang.String;@21ee21c, support_swap_after_merge_bool=false, recipientLimit=20, moto_enable_service_dialing_number=true, groupChatDefaultsToMMS=false, carrier_default_enhanced_4g_mode_enabled_bool=true, notify_vt_handover_to_wifi_failure_bool=false, gsm_dtmf_tone_delay_int=0, show_onscreen_dial_button_boo
+05-11 23:00:30.209 28489 28509 W native  : commandlineflags.cc:983 Ignoring RegisterValidateFunction() for flag pointer 0x9331bff0: no flag found at that address
+05-11 23:00:30.215 28434 28475 I BugleRcsEngine: [5642] nmd.register: Initializing Carrier Services Library.
+05-11 23:00:30.220  5771  6345 E amsk    : Phenotype API error. Event # bulq@a5a68d3a, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+05-11 23:00:30.220  5771  6345 E amsk    : amqy: 29503
+05-11 23:00:30.220  5771  6345 E amsk    : 	at amsr.b(:com.google.android.gms@17122017@17.1.22 (040306-245988633):3)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at amsl.a(:com.google.android.gms@17122017@17.1.22 (040306-245988633):6)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at amsm.b(Unknown Source:2)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at amsk.a(:com.google.android.gms@17122017@17.1.22 (040306-245988633):72)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at amsk.a(:com.google.android.gms@17122017@17.1.22 (040306-245988633):67)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at zwc.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):19)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at bhlo.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):2)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at sed.b(:com.google.android.gms@17122017@17.1.22 (040306-245988633):29)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at sed.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):21)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at skl.run(Unknown Source:7)
+05-11 23:00:30.220  5771  6345 E amsk    : 	at java.lang.Thread.run(Thread.java:764)
+05-11 23:00:30.221  5771  6345 E AsyncOperation: serviceID=51, operation=CommitToConfigurationOperationCall
+05-11 23:00:30.221  5771  6345 E AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+05-11 23:00:30.221  5771  6345 E AsyncOperation: 	at amsk.a(:com.google.android.gms@17122017@17.1.22 (040306-245988633):80)
+05-11 23:00:30.221  5771  6345 E AsyncOperation: 	at amsk.a(:com.google.android.gms@17122017@17.1.22 (040306-245988633):67)
+05-11 23:00:30.221  5771  6345 E AsyncOperation: 	at zwc.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):19)
+05-11 23:00:30.221  5771  6345 E AsyncOperation: 	at bhlo.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):2)
+05-11 23:00:30.221  5771  6345 E AsyncOperation: 	at sed.b(:com.google.android.gms@17122017@17.1.22 (040306-245988633):29)
+05-11 23:00:30.221  5771  6345 E AsyncOperation: 	at sed.run(:com.google.android.gms@17122017@17.1.22 (040306-245988633):21)
+05-11 23:00:30.221  5771  6345 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+05-11 23:00:30.221  5771  6345 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+05-11 23:00:30.221  5771  6345 E AsyncOperation: 	at skl.run(Unknown Source:7)
+05-11 23:00:30.221  5771  6345 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+05-11 23:00:30.224 28489 28509 W native  : commandlineflags.cc:983 Ignoring RegisterValidateFunction() for flag pointer 0x93210ac0: no flag found at that address
+05-11 23:00:30.295   550   550 I SFPerfTracer:      triggers: (rate: 2446:210721) (compose: 0:298) (post: 0:772) (render: 0:1087) (75:885019 frames) (76:963707)
+05-11 23:00:30.295   550   550 D SFPerfTracer:        layers: (4:8) (StatusBar#0 (0xadb33000): 1:43052) (RoundedOverlay#0 (0xadb35000): 0:805) (RoundedOverlay#1 (0xadb39000): 0:905) (DimLayerController/Stack=0#0 (0xadaae000): 0:523)* (NavigationBar#0 (0xadb45000): 0:3606)* (com.android.systemui.ImageWallpaper#0 (0xadb1d000): 0:53)* (animation background stackId=1#0 (0xadabb000): 0:12)* (AOD#0 (0xada83000): 76:161) 
+05-11 23:00:30.303  2150 28530 I FingerprintHal: [fingerprint.c] [do_event_status:355] WAKE_UNLOCK 
+05-11 23:00:30.310 28434 28475 I BugleBackup: Registering preference change listener for "bugle".
+05-11 23:00:30.324 28434 28531 I Bugle   : CountryCodeDetector: updateMainDeviceCountry from default subscription network country. detected country: mx
+05-11 23:00:30.356 28434 28434 I BugleRcs: RcsAvailability: updating
+05-11 23:00:30.367 28434 28486 I BugleRcs: RcsAvailability: No minimum Cs.apk version is set, not checking Cs.apk version
+05-11 23:00:30.367 28434 28469 I BugleRcsEngine: [5636] opx.b: Processing an intent
+05-11 23:00:30.373 28434 28469 I BugleRcsEngine: [5636] opx.handleSimState: SIM state LOADED
+05-11 23:00:30.374 28434 28486 I BugleRcs: RcsAvailability: updated: We aren't the default SMS app
+05-11 23:00:30.399 28434 28475 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-11 23:00:30.438  2413  8216 I ActivityManager: Start proc 28535:com.google.android.calendar/u10a80 for broadcast com.google.android.calendar/com.google.android.apps.calendar.config.phenotypesupport.broadcast.PhenotypeBroadcastReceiver
+05-11 23:00:30.443 28434 28434 I BugleRcs: RcsAvailability: Broadcast disable RCS for We aren't the default SMS app
+05-11 23:00:30.456 28434 28475 W Bugle   : ChatContentDecoratorGrpc: Instance created but no relevant features are enabled
+05-11 23:00:30.459 28434 28434 I BugleRcsEngine: [2] otv.b: Not using CS JibeService because the CS migration has not completed.
+05-11 23:00:30.463  2413  8216 I ActivityManager: Killing 27670:com.android.defcontainer/u0a19 (adj 906): empty #17
+05-11 23:00:30.470  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:30.470  2150 28549 I FingerprintHal: [fingerprint.c] [do_event_status:350] WAKE_LOCK 
+05-11 23:00:30.479 28434 28434 I BugleRcs: RcsAvailability: updating
+05-11 23:00:30.508 28434 28486 I BugleRcs: RcsAvailability: No minimum Cs.apk version is set, not checking Cs.apk version
+05-11 23:00:30.522 28434 28469 I BugleRcsEngine: [5636] opx.updateSimInfo: SIM changed: false. current id: [e2pUnJOKVte2bbSBbwCnUYvtaW0]; stored id: [e2pUnJOKVte2bbSBbwCnUYvtaW0]; isFiDevice: false
+05-11 23:00:30.557 28434 28469 W BugleRcsEngine: [5636] opx.getFormattedMsisdn: line1number from telephony is invalid! (MX) [Senh7J6ssiUcStckjdCWx562RzQ]
+05-11 23:00:30.561 28434 28434 I BugleRcs: RcsAvailability: updating
+05-11 23:00:30.578 28434 28483 I BugleRcs: RcsAvailability: No minimum Cs.apk version is set, not checking Cs.apk version
+05-11 23:00:30.585 28434 28469 I BugleRcsEngine: [5636] opx.updateSimInfo: Updated SIM info: currentSimId: [e2pUnJOKVte2bbSBbwCnUYvtaW0]; imsi: [vVDgWDbbN6YDkZdeR2KUomfJD_c]; rawMsisdn: [Senh7J6ssiUcStckjdCWx562RzQ]; formattedMsisdn: ; mccmnc: [_DjQLDC2dhZMkF_Ql3RNgqnVSS4] isFiDevice: false;
+05-11 23:00:30.593 28434 28469 I BugleRcsEngine: [5636] opx.sendBroadcastSimState: Broadcasting Intent { act=com.google.android.ims.SIM_LOADED (has extras) }
+05-11 23:00:30.593 28434 28434 I Bugle   : SimChangeReceiver: action: com.google.android.ims.SIM_LOADED
+05-11 23:00:30.611 28434 28434 I BugleRcs: RcsAvailability: updating
+05-11 23:00:30.611 28434 28483 I BugleRcs: RcsAvailability: No minimum Cs.apk version is set, not checking Cs.apk version
+05-11 23:00:30.681  2150 28552 I FingerprintHal: [fingerprint.c] [do_event_status:355] WAKE_UNLOCK 
+05-11 23:00:30.744  3612 27419 W ctxmgr  : [PendingIntentCompat]Timed out delivering to pendingIntent=PendingIntent{d99a681: android.os.BinderProxy@a53cad}, intent=Intent { (has extras) }, permission=android.permission.ACCESS_FINE_LOCATION [CONTEXT service_id=47 ]
+05-11 23:00:30.749  3612 27419 W ctxmgr  : [WorkManager]Long workInfo: pkg=com.google.android.gms, lbl=DispatcherDeliver, start=2019-05-11 23:00:25.717-0500, stop=2019-05-11 23:00:30.747-0500, durtn=5030ms [CONTEXT service_id=47 ]
+05-11 23:00:30.818 25387 25387 I MotoDisplay: Setting display to off
+05-11 23:00:30.819 25387 25387 I MotoDisplay: Acquiring wakelock MotoDisplayWakeLock for 500
+05-11 23:00:30.819  2413  2656 I DisplayPowerController: Blocking screen off
+05-11 23:00:30.819  2413  2656 I DisplayPowerController: Unblocked screen off after 1 ms
+05-11 23:00:30.820   518   518 I DisplayPanel: setMode: panel mode = NORMAL
+05-11 23:00:30.820 25387 25387 I MotoDisplay: Releasing wakelock: MotoDisplayWakeLock
+05-11 23:00:30.820   518   518 I DisplayPanel: setParam: HBM = 0
+05-11 23:00:30.820   518   518 I DisplayPanel: setParam: CABC = UI
+05-11 23:00:30.821  2413  2645 I DisplayManagerService: Display device changed state: "Pantalla integrada", OFF
+05-11 23:00:30.822   550   550 D SurfaceFlinger: Set power mode=0, type=0 flinger=0xafdb7000
+05-11 23:00:30.826   508 12267 I SDM     : DisplayBase::SetDisplayState: Set state = 0, display 0
+05-11 23:00:30.832  2413  2939 I InputReader: Reconfiguring input devices.  changes=0x00000004
+05-11 23:00:30.845 28535 28535 W Primes  : Primes not initialized, returning default (no-op) Primes instance which will ignore all calls. Please call Primes.initialize(...) before using any Primes API.
+05-11 23:00:30.852  2413  2413 D FingerprintController: mStowed=false
+05-11 23:00:30.853  2413  2939 D PhoneWindowManagerWithMotoDisplay: stopping dream immediately
+05-11 23:00:30.853  2413  2939 I DreamManagerService: Leaving dreamland.
+05-11 23:00:30.854  2413  2643 I DreamManagerService: Performing gentle wake from dream.
+05-11 23:00:30.854  2413  2643 I DreamController: Stopping dream: name=ComponentInfo{com.motorola.motodisplay/com.motorola.motodisplay.DozeService}, isTest=false, canDoze=true, userId=0
+05-11 23:00:30.855  2413  2656 I PowerManagerService: Sleeping (uid 1000)...
+05-11 23:00:30.856  2413  2939 I PowerManagerService: Waking up from sleep (uid 1000)...
+05-11 23:00:30.860 25387 25387 I MotoDisplay: setKeyboardInteractivity - isInteractive: true mIsDreaming: true
+05-11 23:00:30.860  3184  3184 D StatusBar: DozeServiceHost: notifyPowerKeyWakeup
+05-11 23:00:30.861  3184  3221 D DozeHostService: stopDozing
+05-11 23:00:30.863   512   512 I QTI PowerHAL: Got set_interactive hint
+05-11 23:00:30.863  3184  3221 D DozeHostService: removing callback
+05-11 23:00:30.863 25387 25387 I MotoDisplay: onDestroy - DozeService
+05-11 23:00:30.865 25387 25387 I MotoDisplay: Releasing wakelock: MotoDisplayWakeLock
+05-11 23:00:30.879  3184  3184 D StatusBar: DozeServiceHost: stopDozing
+05-11 23:00:30.880  3184  3184 D StatusBar: DozeServiceHost: shouldAnimateWakeup
+05-11 23:00:30.894 25387 25387 I MotoDisplay: finishScreen
+05-11 23:00:30.894 25387 25387 I MotoDisplay: onDestroy
+05-11 23:00:30.900  3184  3184 D StatusBar: DozeServiceHost: removeCallback
+05-11 23:00:30.929  2413  3076 D WifiNative-wlan0: Scan issued for specific freq..
+05-11 23:00:30.943  2011  2490 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+05-11 23:00:30.943  2011  2490 V msm8974_platform: platform_set_parameters: enter: screen_state=on
+05-11 23:00:30.943  2011  2490 V msm8974_platform: platform_set_parameters: exit with code(0)
+05-11 23:00:30.952  3165  3165 I DeviceStatusMonitor: onReceive() : Action = android.intent.action.SCREEN_ON
+05-11 23:00:30.975  3395  3501 I QCNEJ/CndHalConnector: -> SND notifyScreenStateChanged(true)
+05-11 23:00:30.975  3395  3501 I QCNEJ/CndHalConnector: -> SND notifyScreenStateChanged(false)
+05-11 23:00:30.992  2413  3876 V LocSvc_HIDL_Subscription_jni: screen_status_update
+05-11 23:00:30.992  2413  3876 V LocSvc_HIDL_Subscription_jni: [screen_status_update][485] [HC] =>> [HS]
+05-11 23:00:30.999  2076  2076 V LocSvc_HIDL_IzatSubscription: [screenStatusUpdate][552] [HS] <<<<= [HC]
+05-11 23:00:31.002  2413  3876 V LocSvc_HIDL_Subscription_jni: Exit Result 0
+05-11 23:00:31.019  9978  9978 I WeatherApp: Receiver action: android.intent.action.SCREEN_ON
+05-11 23:00:31.024  5728  5728 I DeviceStatusMonitor: onReceive() : Action = android.intent.action.SCREEN_ON
+05-11 23:00:31.027  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:31.027  2150 28581 I FingerprintHal: [fingerprint.c] [do_event_status:350] WAKE_LOCK 
+05-11 23:00:31.046  8865  8865 I WeatherApp: Receiver action: android.intent.action.SCREEN_ON
+05-11 23:00:31.050  2413  8216 D WificondControl: Scan result ready event
+05-11 23:00:31.053  2413  3134 D SurfaceControl: Excessive delay in setPowerMode(): 231ms
+05-11 23:00:31.054  2413  2645 I DisplayManagerService: Display device changed state: "Pantalla integrada", ON
+05-11 23:00:31.056   550   550 D SurfaceFlinger: Set power mode=2, type=0 flinger=0xafdb7000
+05-11 23:00:31.057   508 12267 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+05-11 23:00:31.060  3429  3429 E mot.actions.quickscreenshot.UserLockUnlockReceiver: Disable quick screenshot due to screen being locked/off
+05-11 23:00:31.061 17464 17464 E hw-IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+05-11 23:00:31.068  2413  2939 I InputReader: Reconfiguring input devices.  changes=0x00000004
+05-11 23:00:31.072  2413  2413 V NotificationListeners: disabling notification listener for user 0: ComponentInfo{com.motorola.motodisplay/com.motorola.motodisplay.notification.DisplayNotifListenerService}
+05-11 23:00:31.097 25387 25387 I MotoDisplay: onListenerDisconnected - DisplayNotifListenerService
+05-11 23:00:31.101  2413  4866 I ActivityManager: Killing 27707:com.android.keychain/1000 (adj 906): empty #17
+05-11 23:00:31.104  9978 10000 I WeatherApp: is force update = false
+05-11 23:00:31.106  9978 10000 I WeatherApp: No top city.
+05-11 23:00:31.108  8865  9404 I WeatherApp: is force update = false
+05-11 23:00:31.109  8865  9404 I WeatherApp: No top city.
+05-11 23:00:31.116  3612  3612 I TrustAgent: [VoiceUnlockTrustletChimeraService] startAuthenticatingUser
+05-11 23:00:31.142  2150 28586 I FingerprintHal: [fingerprint.c] [do_event_status:355] WAKE_UNLOCK 
+05-11 23:00:31.200  2413  4866 I ActivityManager: Killing 27728:com.android.keychain/u10s1000 (adj 906): empty #17
+05-11 23:00:31.355  2413  3134 D SurfaceControl: Excessive delay in setPowerMode(): 301ms
+05-11 23:00:31.361  2413  2656 W PowerManagerService: Screen on took 511 ms
+05-11 23:00:31.380   550   550 D SurfaceFlinger: Backpressure trigger, skipping transaction & refresh!
+05-11 23:00:31.408  2413  2433 I zygote  : Background concurrent copying GC freed 106702(4MB) AllocSpace objects, 0(0B) LOS objects, 42% free, 22MB/39MB, paused 621us total 281.368ms
+05-11 23:00:31.494  2413  5565 W ActivityManager: Permission Denial: service asks to run as user 10 but is calling from user 0; this requires android.permission.INTERACT_ACROSS_USERS_FULL or android.permission.INTERACT_ACROSS_USERS
+05-11 23:00:31.495  3612 23680 E NetworkScheduler: Unknown result code received: 4
+05-11 23:00:31.523  2413  5565 W ActivityManager: Permission Denial: service asks to run as user 10 but is calling from user 0; this requires android.permission.INTERACT_ACROSS_USERS_FULL or android.permission.INTERACT_ACROSS_USERS
+05-11 23:00:31.613  2413  4866 I ActivityManager: Start proc 28592:com.fictionpress.fanfiction/u0a134 for service com.fictionpress.fanfiction/com.firebase.jobdispatcher.GooglePlayReceiver
+05-11 23:00:31.639  3612 23680 E NetworkScheduler: Unknown result code received: 4
+05-11 23:00:31.737  3612 28103 W ResourceType: ResTable_typeSpec entry count inconsistent: given 30, previously 38
+05-11 23:00:31.738  3612 28103 W ResourceType: ResTable_typeSpec entry count inconsistent: given 30, previously 38
+05-11 23:00:31.781   550   817 I SFPerfTracer:      triggers: (rate: 0:0) (48487 sw vsyncs) (0 skipped) (21:1153326 vsyncs) (23:1367568)
+05-11 23:00:31.825   512   512 D QTI PowerHAL: JDG: 2036
+05-11 23:00:31.825  3184  3184 D StatusBar: disable<e i a s b H R c s q >
+05-11 23:00:31.870  3184  3184 I chatty  : uid=10063(u0_a63) com.android.systemui identical 1 line
+05-11 23:00:31.897  3184  3184 D StatusBar: disable<e i a s b H R c s q >
+05-11 23:00:31.947  3612 28103 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+05-11 23:00:31.957  3612 28103 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+05-11 23:00:31.957  3612 28103 W ResourceType: ResTable_typeSpec entry count inconsistent: given 1313, previously 2326
+05-11 23:00:31.958  3612 28103 W ResourceType: ResTable_typeSpec entry count inconsistent: given 325, previously 443
+05-11 23:00:32.099 28592 28618 I FA      : App measurement is starting up, version: 14710
+05-11 23:00:32.099 28592 28618 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+05-11 23:00:32.100 28592 28618 I FA      : To enable faster debug mode event logging run:
+05-11 23:00:32.100 28592 28618 I FA      :   adb shell setprop debug.firebase.analytics.app com.fictionpress.fanfiction
+05-11 23:00:32.162  3184  3336 W Adreno-EGL: <qeglDrvAPI_eglGetConfigAttrib:612>: EGL_BAD_ATTRIBUTE
+05-11 23:00:32.476  3612  3612 W ChimeraUtils: Non Chimera context
+05-11 23:00:32.476  3612  3612 W ChimeraUtils: Non Chimera context
+05-11 23:00:32.539  3612 28103 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-11 23:00:32.542  3612 28103 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17122017@17.1.22 (040306-245988633):2)
+05-11 23:00:32.542  3612 28103 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17122017@17.1.22 (040306-245988633):2)
+05-11 23:00:32.617  3612 28103 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-11 23:00:32.617  3612 28103 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17122017@17.1.22 (040306-245988633):2)
+05-11 23:00:32.617  3612 28103 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17122017@17.1.22 (040306-245988633):2)
+05-11 23:00:32.918   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:32.954  2413  8216 W ActivityManager: Permission Denial: service asks to run as user 10 but is calling from user 0; this requires android.permission.INTERACT_ACROSS_USERS_FULL or android.permission.INTERACT_ACROSS_USERS
+05-11 23:00:32.959  3612 27419 E NetworkScheduler: Unknown result code received: 4
+05-11 23:00:32.983  2413  3026 W ActivityManager: Permission Denial: service asks to run as user 10 but is calling from user 0; this requires android.permission.INTERACT_ACROSS_USERS_FULL or android.permission.INTERACT_ACROSS_USERS
+05-11 23:00:33.033  3612 27419 E NetworkScheduler: Unknown result code received: 4
+05-11 23:00:33.619   550   817 I SFPerfTracer:      triggers: (rate: 0:0) (48487 sw vsyncs) (0 skipped) (69:1153428 vsyncs) (71:1367674)
+05-11 23:00:33.655  2058  2058 I keystore: calling unlock when already unlocked, ignoring.
+05-11 23:00:33.656  2413  5565 I LockSettingsService: Unlocking user 0 with token length 69
+05-11 23:00:33.700  2413  5565 D LockSettingsService: unlockUser finished
+05-11 23:00:33.700  2413  5565 W ActivityManager: Expected user 0 in state RUNNING_LOCKED but was in state RUNNING_UNLOCKED
+05-11 23:00:33.883  2413  4866 W ActivityManager: Permission Denial: service asks to run as user 10 but is calling from user 0; this requires android.permission.INTERACT_ACROSS_USERS_FULL or android.permission.INTERACT_ACROSS_USERS
+05-11 23:00:33.884  3612 23680 E NetworkScheduler: Unknown result code received: 4
+05-11 23:00:34.006  3184  3184 D KeyguardViewMediator: Call PhoneWindowManager's keyguardGoingAway, expect PhoneWindowManager to call startKeyguardExitAnimation
+05-11 23:00:34.112  7941  7941 I zygote  : Deoptimizing void com.android.launcher3.Workspace.mapOverItems(boolean, com.android.launcher3.Workspace$ItemOperator) due to JIT inline cache
+05-11 23:00:34.132  7941  9540 W Adreno-EGL: <qeglDrvAPI_eglGetConfigAttrib:612>: EGL_BAD_ATTRIBUTE
+05-11 23:00:34.140   550   550 I SFPerfTracer:      triggers: (rate: 2446:210722) (compose: 0:298) (post: 0:772) (render: 0:1087) (114:885181 frames) (115:963874)
+05-11 23:00:34.140   550   550 D SFPerfTracer:        layers: (4:8) (StatusBar#0 (0xadb33000): 112:43213) (RoundedOverlay#0 (0xadb35000): 0:806) (RoundedOverlay#1 (0xadb39000): 0:906) (DimLayerController/Stack=0#0 (0xadaae000): 0:523)* (NavigationBar#0 (0xadb45000): 13:3620) (com.android.systemui.ImageWallpaper#0 (0xadb1d000): 0:53)* (animation background stackId=1#0 (0xadabb000): 0:12)* (AOD#0 (0xada83000): 0:161)- 
+05-11 23:00:34.185  3184  3184 D StatusBar: disable<e i a s b H R c s q >
+05-11 23:00:34.185  3184  3184 D StatusBar: disable<e i a s b H R c s q >
+05-11 23:00:34.187  3184  3184 D StatusBar: DozeServiceHost: shouldAnimateWakeup
+05-11 23:00:34.194  3184  3184 D StatusBar: DozeServiceHost: shouldAnimateWakeup
+05-11 23:00:34.194   517   517 E WifiHAL : wifi_get_logger_supported_feature_set: Error -3 happened. 
+05-11 23:00:34.196  3184  3184 D StatusBar: disable<e i a s b H R c s q >
+05-11 23:00:34.198  2413  2413 V FingerprintService: stop client com.android.systemui
+05-11 23:00:34.200  2150  2150 I FingerprintHal: [fingerprint.c] [fingerprint_cancel:868] enter 
+05-11 23:00:34.200  2150  2150 I FingerprintHal: [fingerprint.c] [fp_abort:543] enter 
+05-11 23:00:34.200  2150  2150 I ETS-MAIN: [egistec_fp_api.c] [efp_abort:249] [efp_abort] enter 
+05-11 23:00:34.200  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd: start
+05-11 23:00:34.211  2150 28335 D ETS_TZ_CLIENT: ets ,send modified cmd buffer: start
+05-11 23:00:34.217  2150  2150 I ETS-MAIN: [main_control.c] [main_abort:1302] g_active_thread=0, kill_threads ret=0! 
+05-11 23:00:34.217  2150  2150 I ETS-MAIN: [egistec_fp_api.c] [efp_abort:251] [efp_abort] return = 0 
+05-11 23:00:34.217  2150  2150 E FingerprintHal: [fingerprint.c] [on_error_msg:294] on_error 5 
+05-11 23:00:34.217  2150  2150 E FingerprintHal: [ets_hidl.cpp] [on_error:206] onError(error=5, vendor=0) 
+05-11 23:00:34.218  2413  2413 W FingerprintService: client com.android.systemui is no longer authenticating
+05-11 23:00:34.218  2413  2413 V FingerprintService: Done with client: com.android.systemui
+05-11 23:00:34.218  2413  2413 V FingerprintService: handleError(client=com.android.systemui, error = 5)
+05-11 23:00:34.219  2150 28658 I FingerprintHal: [fingerprint.c] [do_event_status:487] VERIFY_FINISH 
+05-11 23:00:34.225  2413  8216 E BatteryStatsService: no controller energy info supplied
+05-11 23:00:34.225  2413  8216 E BatteryStatsService: no controller energy info supplied
+05-11 23:00:34.232  3184  3254 I AudioTrack: AUDIO_OUTPUT_FLAG_FAST successful; frameCount 9065 -> 9065
+05-11 23:00:34.236  2413  8216 E KernelCpuSpeedReader: Failed to read cpu-freq stats for CPUs 4-7
+05-11 23:00:34.244  2053 14474 D APM_AudioPolicyManager: startOutput() output 13, stream 1, session 7385
+05-11 23:00:34.258   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:34.268  3184  3184 D StatusBar: DozeServiceHost: shouldAnimateWakeup
+05-11 23:00:34.270  3395  3501 I QCNEJ/CndHalConnector: -> SND notifyScreenStateChanged(true)
+05-11 23:00:34.275 27936 27936 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 }
+05-11 23:00:34.277  2413  8216 E BatteryStatsService: modem info is invalid: ModemActivityInfo{ mTimestamp=136602310 mSleepTimeMs=127537957 mIdleTimeMs=-127521457 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=798 mEnergyUsed=0}
+05-11 23:00:34.280  4393  4459 D AndroidPlus: [BatteryEngine] getLastResult autoApps = 0
+05-11 23:00:34.280  4393  4459 D AndroidPlus: [BatteryEngine] getLastResult manualApps = 0
+05-11 23:00:34.280  4393  4459 I AndroidPlus: [RemindManager] remind == none
+05-11 23:00:34.282  2011  3332 V msm8974_platform: platform_get_output_snd_device: enter: output devices(0x2)
+05-11 23:00:34.282  2011  3332 V msm8974_platform: platform_get_output_snd_device: exit: snd_device(speaker)
+05-11 23:00:34.282  2011  3332 V msm8974_platform: platform_get_backend_index:napb: backend port - 0 device - 2 
+05-11 23:00:34.282  2011  3332 V msm8974_platform: platform_check_and_set_playback_backend_cfg: usecase->stream.out->config.format (0)
+05-11 23:00:34.284  2011  3332 V msm8974_platform: platform_check_and_set_playback_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+05-11 23:00:34.284  2011  3332 V msm8974_platform: platform_check_and_set_playback_backend_cfg: new_snd_devices[0] is 2
+05-11 23:00:34.284  2011  3332 V msm8974_platform: platform_get_backend_index:napb: backend port - 0 device - 2 
+05-11 23:00:34.284  2011  3332 V msm8974_platform: platform_check_playback_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+05-11 23:00:34.284  2011  3332 V msm8974_platform: platform_check_playback_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 andsample rate: 48000
+05-11 23:00:34.284  2011  3332 V msm8974_platform: platform_send_audio_calibration: sending audio calibration for snd_device(2) acdb_id(14)
+05-11 23:00:34.294  2011  3332 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 14, path = 0, app id = 0x11130, sample rate = 48000
+05-11 23:00:34.294  2011  3332 D ACDB-LOADER: ACDB -> send_asm_topology
+05-11 23:00:34.294  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> send_adm_topology
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> send_audtable
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> send_audvoltable
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> send_audstrmtable
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 456
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> send_afe_topology
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 14, Topology Id 112fc
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> send_afe_cal
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+05-11 23:00:34.298  2011  3332 D         : Failed to fetch the lookup information of the device 0000000E 
+05-11 23:00:34.298  2011  3332 E ACDB-LOADER: Error: ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE Returned = -19
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+05-11 23:00:34.298  2011  3332 D         : Failed to fetch the lookup information of the device 0000000E 
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 14 path = 0
+05-11 23:00:34.298  2011  3332 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+05-11 23:00:34.299  2011  3332 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+05-11 23:00:34.305  2011  3332 D audio_hw_primary: enable_audio_route: usecase(1) apply and update mixer path: low-latency-playback
+05-11 23:00:34.306  2011  3332 V msm8974_platform: platform_get_backend_index:napb: backend port - 0 device - 2 
+05-11 23:00:34.306  2011  3332 I audio_hw_utils: Set Audio Stream 12 App Type Cfg: app_type 69936 (DEFAULT), acdb_dev_id 14, sample_rate 48000
+05-11 23:00:34.308  3612  3612 I TrustAgent: [HomeAddressChangeTracker] User Present. Maybe fetch home.
+05-11 23:00:34.311  3612  3612 I TrustAgent: [HomeAddressChangeTracker] fetch for account misaelurquieta198@hotmail.com
+05-11 23:00:34.319  3612  3612 I TrustAgent: [HomeFetcher] return existing home address!
+05-11 23:00:34.319  3612  3612 I TrustAgent: [HomeAddressChangeTracker] fetch for account misaelurquietayt@gmail.com
+05-11 23:00:34.319  3612  3612 I TrustAgent: [HomeFetcher] return existing home address!
+05-11 23:00:34.319  3612  3612 I TrustAgent: [HomeAddressChangeTracker] fetch for account epiria107@gmail.com
+05-11 23:00:34.319  3612  3612 I TrustAgent: [HomeFetcher] return existing home address!
+05-11 23:00:34.351  3184  3184 D StatusBar: DozeServiceHost: notifyFpsError
+05-11 23:00:34.360  3184  3184 D StatusBar: disable<e i a s b h!r!c s q >
+05-11 23:00:34.391  3960 28665 I SystemUpdate: [Installation,ReceiverIntentOperation] Received intent: Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService }.
+05-11 23:00:34.415  3960 28663 I SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 11.
+05-11 23:00:34.430  3960 28667 I SystemUpdate: [Execution,InstallationIntentOperation] Received intent: Intent { act=com.google.android.gms.update.INSTALL_UPDATE cat=[targeted_intent_op_prefix:.update.execution.InstallationIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService }.
+05-11 23:00:34.438  2413  2916 D BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4300512, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=28381, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=320, SEQNUM=56189, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_CHARGE_COUNTER=3830026, POWER_SUPPLY_CAPACITY=94, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+05-11 23:00:34.439  3184  3336 W Adreno-EGL: <qeglDrvAPI_eglGetConfigAttrib:612>: EGL_BAD_ATTRIBUTE
+05-11 23:00:34.447  3960 28667 I SystemUpdate: [Execution,ExecutionManager] Action finished-execution executed for 0.00 seconds.
+05-11 23:00:34.525 25885 28424 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:34.530  2413  2546 I ActivityManager: Start proc 28675:android.process.media/u0a23 for broadcast com.android.providers.media/.MtpReceiver
+05-11 23:00:34.546  5771 28672 I PTCommittedOperation: Receive new configuration for com.google.android.gms.tapandpay
+05-11 23:00:34.555   550   550 D SurfaceFlinger: Backpressure trigger, skipping transaction & refresh!
+05-11 23:00:34.562  7941  7956 W zygote  : Checksum mismatch for dex Launcher3.apk
+05-11 23:00:34.562  7941  7956 W zygote  : Checksum mismatch for dex Launcher3.apk
+05-11 23:00:34.564  2413  2916 D BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4300512, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=28381, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=322, SEQNUM=56193, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_CHARGE_COUNTER=3830026, POWER_SUPPLY_CAPACITY=94, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+05-11 23:00:34.590  5771 28671 I PTCommittedOperation: Receive new configuration for com.google.android.gms.places
+05-11 23:00:34.607  5771 28673 I PTCommittedOperation: Receive new configuration for com.google.android.gms.people
+05-11 23:00:34.616  5771 28674 I PTCommittedOperation: Receive new configuration for com.google.android.gms.usagereporting
+05-11 23:00:34.621  5771 28672 I PTCommittedOperation: Receive new configuration for com.google.android.metrics
+05-11 23:00:34.625  2053  2291 D APM_AudioPolicyManager: stopOutput() output 13, stream 1, session 7385
+05-11 23:00:34.655  5771 28688 I PTCommittedOperation: Receive new configuration for com.google.android.gms.backup
+05-11 23:00:34.668  5771 28683 I PTCommittedOperation: Receive new configuration for com.google.android.gms.nearby
+05-11 23:00:34.682  7941  9540 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+05-11 23:00:34.682  7941  9540 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+05-11 23:00:34.704  5771 28683 I PTCommittedOperation: Receive new configuration for com.google.android.gms.herrevad
+05-11 23:00:34.705   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=0.000000
+05-11 23:00:34.732  5771 28683 I PTCommittedOperation: Receive new configuration for com.google.android.gms.car
+05-11 23:00:34.752  5771 28683 I PTCommittedOperation: Receive new configuration for com.google.android.gms.gcm
+05-11 23:00:34.769  5771 28674 I PTCommittedOperation: Receive new configuration for com.google.android.gms.constellation
+05-11 23:00:34.788  5771 28688 I PTCommittedOperation: Receive new configuration for com.google.android.gms.instantapps
+05-11 23:00:34.796  5771 28684 I PTCommittedOperation: Receive new configuration for com.google.android.gms.icing
+05-11 23:00:34.798 28489 28504 I zygote  : Waiting for a blocking GC ProfileSaver
+05-11 23:00:34.825 28489 28504 I zygote  : WaitForGcToComplete blocked for 27.030ms for cause ProfileSaver
+05-11 23:00:34.837  3184  3184 D StatusBar: disable<e i a s b h r c s q >
+05-11 23:00:34.882  3184  3336 W Adreno-EGL: <qeglDrvAPI_eglGetConfigAttrib:612>: EGL_BAD_ATTRIBUTE
+05-11 23:00:34.910  3612  3622 I zygote  : Background concurrent copying GC freed 187913(8MB) AllocSpace objects, 51(2MB) LOS objects, 50% free, 13MB/27MB, paused 319us total 389.865ms
+05-11 23:00:34.927  2068  2966 D NuPlayerDriver: stop(0xafca8310)
+05-11 23:00:34.927  2068  2966 D NuPlayerDriver: notifyListener_l(0xafca8310), (8, 0, 0, -1), loop setting(0, 0)
+05-11 23:00:34.929  3184  3184 D StatusBar: disable<e i a s b h r c s q >
+05-11 23:00:34.930  3184  8967 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {32024ef} sending message to a Handler on a dead thread
+05-11 23:00:34.930  3184  8967 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {32024ef} sending message to a Handler on a dead thread
+05-11 23:00:34.930  3184  8967 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:547)
+05-11 23:00:34.930  3184  8967 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:661)
+05-11 23:00:34.930  3184  8967 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:630)
+05-11 23:00:34.930  3184  8967 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:600)
+05-11 23:00:34.930  3184  8967 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:537)
+05-11 23:00:34.930  3184  8967 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3445)
+05-11 23:00:34.935  3184 28707 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+05-11 23:00:34.935  3184 28707 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+05-11 23:00:34.935  2068  2966 D NuPlayerDriver: reset(0xafca8310) at state 8
+05-11 23:00:34.947  2068 25759 I MediaCodec: (0xafcbb000) flush
+05-11 23:00:34.961  2068 25759 I MediaCodec: (0xafcbb000) release
+05-11 23:00:34.975   512   512 D QTI PowerHAL: JDG: 907
+05-11 23:00:34.982  2068 25753 D NuPlayerDriver: notifyResetComplete(0xafca8310)
+05-11 23:00:34.989 28489 28499 I zygote  : WaitForGcToComplete blocked for 69.241ms for cause HeapTrim
+05-11 23:00:35.211   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:35.222  2329  2329 I adbd    : Calling send_auth_request...
+05-11 23:00:35.253  2413  3243 I ActivityManager: Killing 27762:com.android.vending:instant_app_installer/u0a53 (adj 906): empty #17
+05-11 23:00:35.272   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=0.000000
+05-11 23:00:35.285  2329  2329 I adbd    : Loading keys from /data/misc/adb/adb_keys
+05-11 23:00:35.385   517   517 E WifiHAL : wifi_get_logger_supported_feature_set: Error -3 happened. 
+05-11 23:00:35.404  2413  4865 E BatteryStatsService: no controller energy info supplied
+05-11 23:00:35.404  2413  4865 E BatteryStatsService: no controller energy info supplied
+05-11 23:00:35.411  2413  3026 I ActivityManager: Start proc 28717:android.process.media/u10a23 for broadcast com.android.providers.media/.MtpReceiver
+05-11 23:00:35.415  2413  3026 I ActivityManager: Killing 27896:com.motorola.invisiblenet/u0a37 (adj 906): empty #17
+05-11 23:00:35.420  2413  4865 E KernelCpuSpeedReader: Failed to read cpu-freq stats for CPUs 4-7
+05-11 23:00:35.443  2413  4865 E BatteryStatsService: modem info is invalid: ModemActivityInfo{ mTimestamp=136603488 mSleepTimeMs=127537957 mIdleTimeMs=-127521457 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=798 mEnergyUsed=0}
+05-11 23:00:35.482  2413  2549 W Looper  : Dispatch took 105ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {e585926} cb=null msg=53
+05-11 23:00:35.483  2413  4863 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=28434 uid=1010101 pkg=com.google.android.apps.messaging
+05-11 23:00:35.488 28434 28434 W BugleDataModel: ActionExecutorImpl: Action started execution, but we can't guarantee it will complete, the app may be killed. Action: class com.google.android.apps.messaging.shared.datamodel.action.FixupMessageStatusOnStartupAction-FixupMessageStatusOnStartupAction:136597522001
+05-11 23:00:35.488 28434 28434 W BugleDataModel: java.lang.IllegalStateException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService }: app is in background uid UidRecord{9252035 u10a101 CEM  idle procs:2 seq(0,0,0)}
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1520)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at android.app.ContextImpl.startService(ContextImpl.java:1476)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at android.content.ContextWrapper.startService(ContextWrapper.java:644)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(SourceFile:21)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(SourceFile:17)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at dxb.c(SourceFile:12)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at dxc.run(Unknown Source:1)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at android.app.ActivityThread.main(ActivityThread.java:6694)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at java.lang.reflect.Method.invoke(Native Method)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-11 23:00:35.488 28434 28434 W BugleDataModel: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:769)
+05-11 23:00:35.496  2413  4865 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=28434 uid=1010101 pkg=com.google.android.apps.messaging
+05-11 23:00:35.513  2413  3243 I ActivityManager: Killing 27916:com.motorola.invisiblenet/u10a37 (adj 906): empty #17
+05-11 23:00:35.560  3704  3704 D SlpcSystem: UserTriggerProxRecalReceiver action: com.motorola.UNLOCK_SUCCESS
+05-11 23:00:35.565  3704  3704 I SlpcSystemJNI: JNI_triggerProxRecal:77 JNI_triggerProxRecal
+05-11 23:00:35.587   501   797 D SLPI-EPL259X: Starting Unlock Prox Cal, Current PDATA 122, PILT 369, PIHT 619
+05-11 23:00:35.588   501   797 D SLPI-EPL259X: Prox Cal complete, New PDATA 122, POFFSET 250, PILT 372, PIHT 622
+05-11 23:00:35.588  3704 28731 I SlpcSystemJNI: notify_data_cb:51 JNI_triggerProxRecal sensor1 responded
+05-11 23:00:35.589  2413  2450 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.google.android.gms/.auth.setup.devicesignals.LockScreenReceiver
+05-11 23:00:35.590  2413  2546 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.google.android.gms/.trustagent.UserPresentBroadcastReceiver
+05-11 23:00:35.591  2413  2546 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+05-11 23:00:35.592  2413  2546 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.instagram.android/com.instagram.push.fbns.FbnsInitBroadcastReceiver
+05-11 23:00:35.597  3415  3449 I zygote  : Background concurrent copying GC freed 39990(2MB) AllocSpace objects, 17(1240KB) LOS objects, 49% free, 3MB/7MB, paused 3.156ms total 110.213ms
+05-11 23:00:35.642 28434 28434 W BugleDataModel: ActionExecutorImpl: Action started execution, but we can't guarantee it will complete, the app may be killed. Action: class com.google.android.apps.messaging.shared.datamodel.action.ProcessPendingMessagesAction-ProcessPendingMessagesAction:136597522002
+05-11 23:00:35.642 28434 28434 W BugleDataModel: java.lang.IllegalStateException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService }: app is in background uid UidRecord{9252035 u10a101 CEM  idle procs:2 seq(0,0,0)}
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1520)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at android.app.ContextImpl.startService(ContextImpl.java:1476)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at android.content.ContextWrapper.startService(ContextWrapper.java:644)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(SourceFile:21)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(SourceFile:17)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at dxb.c(SourceFile:12)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at dxc.run(Unknown Source:1)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at android.app.ActivityThread.main(ActivityThread.java:6694)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at java.lang.reflect.Method.invoke(Native Method)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-11 23:00:35.642 28434 28434 W BugleDataModel: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:769)
+05-11 23:00:35.650   512   512 D QTI PowerHAL: JDG: 793
+05-11 23:00:35.704 28434 28527 I BugleDataModel: FixupMessageStatusOnStartupAction: sendFailedCnt: 0, downloadFailedCnt: 0, partsProcessingFailedCnt: 0
+05-11 23:00:35.706 28434 28527 W BugleDataModel: PendingMessagesProcessor: ProcessPendingMessagesAction: skipped - not default SMS app
+05-11 23:00:35.706 28434 28527 W BugleDataModel: PendingMessagesProcessor: ProcessPendingMessagesAction: skipped - not default SMS app
+05-11 23:00:35.742 28535 28550 I zygote  : Waiting for a blocking GC ProfileSaver
+05-11 23:00:35.818 25885 28696 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:35.839 25885 28698 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:35.881  2413  2433 I zygote  : Background concurrent copying GC freed 53721(2MB) AllocSpace objects, 12(724KB) LOS objects, 42% free, 22MB/39MB, paused 1.001ms total 391.020ms
+05-11 23:00:35.903 25885 28736 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:35.920 25885 28737 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:35.940 25885 28698 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:35.956 25885 28741 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:36.056 25885 28670 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:36.075  6778  6788 I zygote  : Background concurrent copying GC freed 10693(1231KB) AllocSpace objects, 8(160KB) LOS objects, 65% free, 817KB/2MB, paused 28.357ms total 92.367ms
+05-11 23:00:36.127 25885 28743 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:36.128 25885 28743 D CAR.SETUP: Received Car Phenotype committed intent.
+05-11 23:00:36.144  2413  8216 I ActivityManager: Killing 27950:com.motorola.moto:context_engine/u0a45 (adj 906): empty #17
+05-11 23:00:36.158  2413  3243 I ActivityManager: Killing 27977:com.motorola.moto:context_engine/u10a45 (adj 906): empty #17
+05-11 23:00:36.192   550   817 I SFPerfTracer:      triggers: (rate: 0:0) (48487 sw vsyncs) (0 skipped) (18:1153517 vsyncs) (20:1367790)
+05-11 23:00:36.194 25885 28743 I CAR.SETUP: update Car DrivingMode components to false
+05-11 23:00:36.232 28535 28550 I zygote  : Waiting for a blocking GC ProfileSaver
+05-11 23:00:36.238  6778  6823 I MCLOG   : DeviceLockStatsAction : onReceiveImpl() action:com.motorola.UNLOCK_SUCCESS
+05-11 23:00:36.238  2413  8216 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=28434 uid=1010101 pkg=com.google.android.apps.messaging
+05-11 23:00:36.240 28434 28434 W BugleDataModel: ActionExecutorImpl: Action started execution, but we can't guarantee it will complete, the app may be killed. Action: class com.google.android.apps.messaging.shared.datamodel.action.GenericWorkerQueueAction-GenericWorkerQueueAction:136597522008
+05-11 23:00:36.240 28434 28434 W BugleDataModel: java.lang.IllegalStateException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService }: app is in background uid UidRecord{9252035 u10a101 TRNB idle procs:2 seq(0,0,0)}
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1520)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at android.app.ContextImpl.startService(ContextImpl.java:1476)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at android.content.ContextWrapper.startService(ContextWrapper.java:644)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(SourceFile:21)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(SourceFile:17)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at dxb.c(SourceFile:12)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at dxc.run(Unknown Source:1)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at android.app.ActivityThread.main(ActivityThread.java:6694)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at java.lang.reflect.Method.invoke(Native Method)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-11 23:00:36.240 28434 28434 W BugleDataModel: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:769)
+05-11 23:00:36.250 25885 28741 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:36.254 28535 28546 W zygote  : Suspending all threads took: 21.735ms
+05-11 23:00:36.255  2413  3243 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=28434 uid=1010101 pkg=com.google.android.apps.messaging
+05-11 23:00:36.255 28535 28550 I zygote  : WaitForGcToComplete blocked for 512.560ms for cause ProfileSaver
+05-11 23:00:36.256 25885 28698 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:36.258   512   512 D QTI PowerHAL: JDG: 1731
+05-11 23:00:36.269 25885 28670 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:36.272 25885 28670 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-11 23:00:36.282 28434 28527 I ShortcutBadger: Checking if platform supports badge counters, attempt 1/3.
+05-11 23:00:36.287 25885 28741 I MobileDataHub: Scheduling periodic tasks
+05-11 23:00:36.291 28434 28527 I ShortcutBadger: Checking if platform supports badge counters, attempt 2/3.
+05-11 23:00:36.298 28434 28527 I ShortcutBadger: Checking if platform supports badge counters, attempt 3/3.
+05-11 23:00:36.314   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=0.000000
+05-11 23:00:36.314   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:36.333 28434 28527 W ShortcutBadger: Badge counter seems not supported in this platform: unable to resolve intent: Intent { act=android.intent.action.BADGE_COUNT_UPDATE (has extras) }
+05-11 23:00:36.337 28535 28546 I zygote  : WaitForGcToComplete blocked for 73.614ms for cause HeapTrim
+05-11 23:00:36.460  3184  3184 D StatusBar: disable<e i a s b h r c s q >
+05-11 23:00:36.472  2413  3243 I ActivityManager: Killing 28022:com.google.android.partnersetup/u0a34 (adj 906): empty #17
+05-11 23:00:36.493  2413  2552 W zygote  : kill(28022, 9) failed: No such process
+05-11 23:00:36.523  3184  3184 D StatusBar: disable<e i a s b h r c s q >
+05-11 23:00:36.557  3184  3336 W Adreno-EGL: <qeglDrvAPI_eglGetConfigAttrib:612>: EGL_BAD_ATTRIBUTE
+05-11 23:00:36.559  2413  8216 I ActivityManager: Killing 28041:com.android.providers.calendar/u0a9 (adj 906): empty #17
+05-11 23:00:36.622   550   550 I SFPerfTracer:      triggers: (rate: 2446:210735) (compose: 0:298) (post: 0:772) (render: 0:1087) (90:885299 frames) (91:963999)
+05-11 23:00:36.622   550   550 D SFPerfTracer:        layers: (6:8) (StatusBar#0 (0xadb33000): 91:43320) (RoundedOverlay#0 (0xadb35000): 0:806) (RoundedOverlay#1 (0xadb39000): 0:906) (DimLayerController/Stack=0#0 (0xadaae000): 0:523)* (NavigationBar#0 (0xadb45000): 0:3621) (com.android.systemui.ImageWallpaper#0 (0xadb1d000): 0:54) (animation background stackId=1#0 (0xadabb000): 0:12)* (com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xadb26000): 0:21) 
+05-11 23:00:36.627  3612 27420 E NetworkScheduler.ATC: Called cancelTask for already completed task com.fictionpress.fanfiction/com.firebase.jobdispatcher.GooglePlayReceiver{u=0 tag="101" trigger=window{start=210s,end=240s,earliest=-9s,latest=20s} requirements=[NET_CONNECTED,CHARGING] attributes=[PERSISTED,RECURRING] scheduled=-219s last_run=-5s jid=N/A status=ACTIVE retries=0 client_lib=FIREBASE_JOB_DISPATCHER-1} :RESCHEDULED
+05-11 23:00:36.790   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=0.000000
+05-11 23:00:37.030  2413  8216 W ActivityManager: Permission Denial: service asks to run as user 10 but is calling from user 0; this requires android.permission.INTERACT_ACROSS_USERS_FULL or android.permission.INTERACT_ACROSS_USERS
+05-11 23:00:37.031  3612 27419 E NetworkScheduler: Unknown result code received: 4
+05-11 23:00:37.701  2011  2281 D audio_hw_primary: disable_audio_route: usecase(1) reset and update mixer path: low-latency-playback
+05-11 23:00:37.702  2011  2281 D audio_hw_primary: disable_snd_device: snd_device(2: speaker)
+05-11 23:00:37.867  2413  8216 I ActivityManager: Killing 27506:com.google.android.youtube/u0a115 (adj 906): empty #17
+05-11 23:00:37.899  2413  3243 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=236, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@91e9d82)
+05-11 23:00:37.900  2413  3092 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=236, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+05-11 23:00:37.955   512   512 D QTI PowerHAL: JDG: 2127
+05-11 23:00:37.987 28592 28610 I zygote  : System.exit called, status: 0
+05-11 23:00:37.987 28592 28610 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+05-11 23:00:38.011  2413 10711 I ActivityManager: Process com.fictionpress.fanfiction (pid 28592) has died: cch  CEM 
+05-11 23:00:38.156  2413  2413 I ActivityManager: Start proc 28767:com.google.android.contacts/u10a29 for service com.google.android.contacts/com.google.android.apps.contacts.shortcut.ShortcutJobService
+05-11 23:00:38.372   512   512 D QTI PowerHAL: JDG: 3281
+05-11 23:00:38.391 28767 28767 W PrimesInit: Primes instant initialization
+05-11 23:00:38.392 28767 28794 W Primes  : background initialization
+05-11 23:00:38.459 28767 28794 I PrimesTesting: GserviceFlagsSupplier.get()
+05-11 23:00:39.357   512   512 D QTI PowerHAL: JDG: 1893
+05-11 23:00:39.381   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:39.397 27813 27813 I BgTaskExecutorImpl: Starting EXCLUSIVE background task FETCH_CONFIGS_FROM_PHENOTYPE.
+05-11 23:00:39.419  3612 28103 I amsb    : updateFromConfigurations using legacy put method [CONTEXT service_id=51 ]
+05-11 23:00:39.590   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=0.000000
+05-11 23:00:39.684   550   817 I SFPerfTracer:      triggers: (rate: 0:0) (48487 sw vsyncs) (0 skipped) (81:1153618 vsyncs) (83:1367900)
+05-11 23:00:39.740  2413  4871 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.iot/.MainActivity bnds=[429,316][567,535]} from uid 10039
+05-11 23:00:39.742   526 28811 I Thermal-Lib: Thermal-Lib-Client: Client request sent
+05-11 23:00:39.747  2049  2138 I ThermalEngine: Thermal-Server: Thermal received msg from  override
+05-11 23:00:39.776  3612 28103 I amsb    : updateFromConfigurations using legacy put method [CONTEXT service_id=51 ]
+05-11 23:00:39.777  3612 28103 I amtx    : Scheduling adaptive one off task with window [14400, 604800] in seconds [CONTEXT service_id=51 ]
+05-11 23:00:39.782  2413  3458 I ActivityManager: Start proc 28813:com.iot/u0a123 for activity com.iot/.MainActivity
+05-11 23:00:39.790  2413  2546 I ActivityManager: Killing 28115:com.android.chrome/u10a86 (adj 906): empty #17
+05-11 23:00:39.815  2413  3458 I ActivityManager: Killing 27068:com.motorola.moto/u10a45 (adj 906): empty #17
+05-11 23:00:39.899 18852 18900 I Finsky  : [5228] iet.run(3): Stats for Executor: BlockingExecutor iga@3b58b4[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 18]
+05-11 23:00:39.900 18852 18900 I Finsky  : [5228] iet.run(3): Stats for Executor: LightweightExecutor iga@d83ccdd[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 61]
+05-11 23:00:40.073 28813 28830 D OpenGLRenderer: HWUI GL Pipeline
+05-11 23:00:40.085 18852 18900 I Finsky  : [5228] iet.run(3): Stats for Executor: bgExecutor iga@977c052[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 46]
+05-11 23:00:40.144   550   550 I SFPerfTracer:      triggers: (rate: 2446:210739) (compose: 0:298) (post: 0:772) (render: 0:1087) (16:885404 frames) (17:964112)
+05-11 23:00:40.145   550   550 D SFPerfTracer:        layers: (7:9) (StatusBar#0 (0xadb33000): 14:43336) (RoundedOverlay#0 (0xadb35000): 0:806) (RoundedOverlay#1 (0xadb39000): 0:906) (DimLayerController/Stack=0#0 (0xadaae000): 0:523)* (NavigationBar#0 (0xadb45000): 13:3634) (com.android.systemui.ImageWallpaper#0 (0xadb1d000): 0:54) (animation background stackId=1#0 (0xadabb000): 0:12)* (com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xadb26000): 1:112) (Splash Screen com.iot#0 (0xada83000): 17:19) 
+05-11 23:00:40.172 28813 28830 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 02/27/18, 3273d9c, I0b59f3a7cf
+05-11 23:00:40.234 27813 27874 I ModelDownloadListener: Schdedule model download
+05-11 23:00:40.245 27813 27813 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPDATE_HOTWORD_MODELS.
+05-11 23:00:40.245 28813 28830 I OpenGLRenderer: Initialized EGL, version 1.4
+05-11 23:00:40.245 28813 28830 D OpenGLRenderer: Swap behavior 2
+05-11 23:00:40.256 27813 28012 I ModelDownloadController: requestHotwordModelUpdate modelType-OK_GOOGLE modelLocale-es-US
+05-11 23:00:40.261 27813 27874 I EngineIdGenerator: Refusing EXCLUSIVE task INTERNAL_PERIODIC_TASK_SYNC, it is already pending. Try again in 333 seconds.
+05-11 23:00:40.263 27813 28012 I ModelDownloadController: We already downloaded model from given location.
+05-11 23:00:40.263 27813 28012 I ModelDownloadController: Handle the downloaded hotword model
+05-11 23:00:40.263 27813 28012 I ModelDownloadController: the model is already used
+05-11 23:00:40.263 27813 28012 I ModelDownloadController: Model download failed
+05-11 23:00:40.264 27813 27874 I OpaEligibilityChecker: send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+05-11 23:00:40.264 27813 27995 W SearchServiceCore: Abort, client detached.
+05-11 23:00:40.265 27813 27995 W SearchServiceCore: Abort, client detached.
+05-11 23:00:40.306  3960 22998 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=SEARCH_QUERIES
+05-11 23:00:40.311 28813 28830 W Adreno-EGL: <qeglDrvAPI_eglGetConfigAttrib:612>: EGL_BAD_ATTRIBUTE
+05-11 23:00:40.321  3960 22998 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=GLOBAL_SEARCH_ADMIN
+05-11 23:00:40.424   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:40.447  2413  2645 I LaunchCheckinHandler: Displayed com.iot/.MainActivity,cp,ca,679
+05-11 23:00:40.448  2413  2645 I ActivityManager: Displayed com.iot/.MainActivity: +649ms
+05-11 23:00:40.459  2413  8216 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+05-11 23:00:40.459  2413  8216 W Binder  : java.lang.Throwable
+05-11 23:00:40.459  2413  8216 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:736)
+05-11 23:00:40.459  2413  8216 W Binder  : 	at android.app.assist.AssistStructure$ParcelTransferReader.fetchData(AssistStructure.java:407)
+05-11 23:00:40.459  2413  8216 W Binder  : 	at android.app.assist.AssistStructure$ParcelTransferReader.go(AssistStructure.java:343)
+05-11 23:00:40.459  2413  8216 W Binder  : 	at android.app.assist.AssistStructure.ensureData(AssistStructure.java:2110)
+05-11 23:00:40.459  2413  8216 W Binder  : 	at com.android.server.autofill.Session$1.send(Session.java:200)
+05-11 23:00:40.459  2413  8216 W Binder  : 	at com.android.server.am.ActivityManagerService.reportAssistContextExtras(ActivityManagerService.java:13486)
+05-11 23:00:40.459  2413  8216 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2467)
+05-11 23:00:40.459  2413  8216 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3082)
+05-11 23:00:40.459  2413  8216 W Binder  : 	at android.os.Binder.execTransact(Binder.java:674)
+05-11 23:00:40.461 28813 28813 I AssistStructure: Flattened final assist data: 1632 bytes, containing 1 windows, 6 views
+05-11 23:00:40.467  3960 21315 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0, imm upload true
+05-11 23:00:40.495  2413  7930 I AssistStructure: Flattened final assist data: 1532 bytes, containing 1 windows, 6 views
+05-11 23:00:40.500  3960 21315 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload true
+05-11 23:00:40.543   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=2.000000
+05-11 23:00:40.577 27813 27995 W SearchServiceCore: Abort, client detached.
+05-11 23:00:40.578 27813 27995 I chatty  : uid=10068(u0_a68) EventBus0 identical 1 line
+05-11 23:00:40.579 27813 27995 W SearchServiceCore: Abort, client detached.
+05-11 23:00:40.591  2413  7930 I ActivityManager: Killing 28174:com.google.android.partnersetup/u10a34 (adj 906): empty #17
+05-11 23:00:41.101  3612  3622 I zygote  : Background concurrent copying GC freed 257885(12MB) AllocSpace objects, 43(2MB) LOS objects, 49% free, 13MB/26MB, paused 266us total 150.673ms
+05-11 23:00:41.407   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:41.556   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=0.000000
+05-11 23:00:41.923   550   817 I SFPerfTracer:      triggers: (rate: 0:0) (48487 sw vsyncs) (0 skipped) (117:1153739 vsyncs) (119:1368025)
+05-11 23:00:42.152   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:42.300   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:42.330   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=2.000000
+05-11 23:00:42.420   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:42.604  2413  3458 I ActivityManager: Killing 27201:com.android.printspooler/u0a109 (adj 906): empty #17
+05-11 23:00:42.741   526 28838 I Thermal-Lib: Thermal-Lib-Client: Client request sent
+05-11 23:00:42.741  2049  2138 I ThermalEngine: Thermal-Server: Thermal received msg from  override
+05-11 23:00:43.254   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=0.000000
+05-11 23:00:43.268  2413  3135 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+05-11 23:00:43.344   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=0.000000
+05-11 23:00:43.582   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:43.671   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=2.000000
+05-11 23:00:43.671   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:00:43.790   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=0.000000
+05-11 23:00:44.378 28064 28169 I WorkerManager: dispose()
+05-11 23:00:44.382 28064 28169 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+05-11 23:00:44.795  3165  3165 I KeyboardViewUtil: systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+05-11 23:00:44.799  3165  3165 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.iot : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable
+05-11 23:00:44.837  3165  3165 I Tiresias: beginSession():
+05-11 23:00:44.904  3165  6487 W Adreno-EGL: <qeglDrvAPI_eglGetConfigAttrib:612>: EGL_BAD_ATTRIBUTE
+05-11 23:00:45.198   550   550 D SurfaceFlinger: Backpressure trigger, skipping transaction & refresh!
+05-11 23:00:45.619  2413  2643 W RemoteFillService: Not handling { when=-5ms what=3 target=com.android.internal.os.HandlerCaller$MyHandler hashCode=b65b5d8 } as service for ComponentInfo{com.google.android.gms/com.google.android.gms.autofill.service.AutofillService} is already destroyed
+05-11 23:00:45.746  3165  3245 D SharedPreferencesImpl: Time required to fsync /data/user/0/com.google.android.inputmethod.latin/shared_prefs/com.google.android.inputmethod.latin_preferences.xml: [<1: 9, <2: 60, <4: 51, <8: 50, <16: 36, <32: 9, <64: 2, <128: 1, <256: 9, <512: 7, <1024: 9, <2048: 1, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+05-11 23:00:46.001  3395  3501 I QCNEJ   : |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+05-11 23:00:46.065  3395  3501 D QCNEJ   : |CORE| Updating RSSI: -66
+05-11 23:00:46.226  2047  2465 E hw-IPCThreadState: binder thread pool (1 threads) starved for 153 ms
+05-11 23:00:46.246  6615  6615 D MayaFrameworkProxyService: receive intent :Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.gms flg=0x45000010 (has extras) }
+05-11 23:00:46.265  5923  6087 I CarrierServices: [4460] cdd.a: FiST: Wifi connectivity status true
+05-11 23:00:46.278  5923  6087 I CarrierServices: [4460] cdi.d: Connected state: [1], networkType: [WIFI]
+05-11 23:00:46.282  2413  2413 W ResourceType: ResTable_typeSpec entry count inconsistent: given 753, previously 755
+05-11 23:00:46.282  2413  2413 W ResourceType: ResTable_typeSpec entry count inconsistent: given 487, previously 492
+05-11 23:00:46.282  2413  2413 W ResourceType: ResTable_typeSpec entry count inconsistent: given 335, previously 1259
+05-11 23:00:46.282  2413  2413 W ResourceType: ResTable_typeSpec entry count inconsistent: given 219, previously 1037
+05-11 23:00:46.331  3446  3446 D CarrierSvcBindHelper: No carrier app for: 0
+05-11 23:00:46.331  3446  3446 D ImsResolver: maybeAddedImsService, packageName: com.google.android.gms
+05-11 23:00:46.398  2413  2545 W ResourceType: ResTable_typeSpec entry count inconsistent: given 30, previously 38
+05-11 23:00:46.406  2413  2545 W ResourceType: ResTable_typeSpec entry count inconsistent: given 30, previously 38
+05-11 23:00:46.440 25885 26623 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=SEARCH_CORPORA
+05-11 23:00:46.443 25885 27879 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=SEARCH_QUERIES
+05-11 23:00:46.450 25885 28858 I Icing   : updateResources: need to parse aceh{com.google.android.gms}
+05-11 23:00:46.456  2413  2413 I TelecomService: DefaultDialerCache: Refreshing default dialer for user 0: now com.google.android.dialer: DDC.oR@JFg
+05-11 23:00:46.458  2413  2413 I TelecomService: DefaultDialerCache: Refreshing default dialer for user 10: now com.google.android.dialer: DDC.oR@JFg
+05-11 23:00:46.613  2413  2545 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+05-11 23:00:46.613  2413  2545 W Binder  : java.lang.Throwable
+05-11 23:00:46.613  2413  2545 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:736)
+05-11 23:00:46.613  2413  2545 W Binder  : 	at com.android.internal.location.ILocationProvider$Stub$Proxy.getProperties(ILocationProvider.java:232)
+05-11 23:00:46.613  2413  2545 W Binder  : 	at com.android.server.location.LocationProviderProxy$1.run(LocationProviderProxy.java:119)
+05-11 23:00:46.613  2413  2545 W Binder  : 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:00:46.613  2413  2545 W Binder  : 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:00:46.613  2413  2545 W Binder  : 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:00:46.613  2413  2545 W Binder  : 	at android.os.HandlerThread.run(HandlerThread.java:65)
+05-11 23:00:46.643  2413  3876 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+05-11 23:00:46.643  2413  3876 W Binder  : java.lang.Throwable
+05-11 23:00:46.643  2413  3876 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:736)
+05-11 23:00:46.643  2413  3876 W Binder  : 	at com.android.internal.location.ILocationProvider$Stub$Proxy.enable(ILocationProvider.java:173)
+05-11 23:00:46.643  2413  3876 W Binder  : 	at com.qualcomm.location.izatprovider.NpProxy.enable(NpProxy.java:70)
+05-11 23:00:46.643  2413  3876 W Binder  : 	at com.qualcomm.location.izatprovider.NpProxy.handleMessage(NpProxy.java:268)
+05-11 23:00:46.643  2413  3876 W Binder  : 	at android.os.Handler.dispatchMessage(Handler.java:101)
+05-11 23:00:46.643  2413  3876 W Binder  : 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:00:46.643  2413  3876 W Binder  : 	at android.os.HandlerThread.run(HandlerThread.java:65)
+05-11 23:00:46.670 25885 28858 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+05-11 23:00:46.685 25885 28858 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+05-11 23:00:46.756  2413  2433 I zygote  : Background concurrent copying GC freed 92931(4MB) AllocSpace objects, 9(180KB) LOS objects, 42% free, 25MB/44MB, paused 796us total 362.339ms
+05-11 23:00:47.690 25885 28858 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-11 23:00:47.698 25885 28858 I Icing   : Indexing done com.google.android.gms-apps
+05-11 23:00:49.021  3395  3501 I QCNEJ   : |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+05-11 23:00:49.021  3395  3501 D QCNEJ   : |CORE| Updating RSSI: -68
+05-11 23:00:49.032  5923  6087 I CarrierServices: [4460] cdd.a: FiST: Wifi connectivity status true
+05-11 23:00:49.034  5923  6087 I CarrierServices: [4460] cdi.d: Connected state: [1], networkType: [WIFI]
+05-11 23:00:49.050   550   550 I SFPerfTracer:      triggers: (rate: 2446:210745) (compose: 0:298) (post: 0:772) (render: 0:1087) (0:885462 frames) (1:964212)
+05-11 23:00:49.051   550   550 D SFPerfTracer:        layers: (6:11) (StatusBar#0 (0xadb33000): 0:43367) (RoundedOverlay#0 (0xadb35000): 0:806) (RoundedOverlay#1 (0xadb39000): 0:906) (DimLayerController/Stack=0#0 (0xadaae000): 0:523)* (NavigationBar#0 (0xadb45000): 0:3635) (com.android.systemui.ImageWallpaper#0 (0xadb1d000): 0:55)* (animation background stackId=1#0 (0xadabb000): 0:12)* (com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xadb26000): 0:113)- (Splash Screen com.iot#0 (0xada83000): 0:35)- (com.iot/com.iot.MainActivity#0 (0xadaa5000): 0:35) (InputMethod#0 (0xadb26000): 1:33) 
+05-11 23:00:50.925  2413  3076 D WifiNative-wlan0: Scan issued for specific freq..
+05-11 23:00:51.424  2413  3458 D WificondControl: Scan result ready event
+05-11 23:00:51.437  2413  4865 D WifiPermissionsUtil: Denied: Profile not permitted
+05-11 23:00:51.574  2413  7930 I ActivityManager: Killing 26934:com.motorola.moto/u0a45 (adj 906): empty #17
+05-11 23:00:51.594  3960 28867 D SharedPreferencesImpl: Time required to fsync /data/user/0/com.google.android.gms/shared_prefs/com.google.android.gms.auth.authzen.cryptauth.DeviceStateSyncManager.xml: [<1: 14, <2: 27, <4: 12, <8: 20, <16: 12, <32: 2, <64: 5, <128: 1, <256: 0, <512: 1, <1024: 2, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+05-11 23:00:51.594  3960 28867 I Authzen : [DeviceStateSyncManager] The server is in sync with current state. Nothing to do
+05-11 23:00:54.137   550   817 I SFPerfTracer:      triggers: (rate: 0:0) (48487 sw vsyncs) (0 skipped) (0:1153775 vsyncs) (1:1368126)
+05-11 23:00:54.147  2076  3391 V LocSvc_HIDL_IzatProvider: [onLocationChanged][67] [HS] =>>>> [HC]
+05-11 23:00:54.147  2413  3124 V LocSvc_HIDL_IzatProvider_jni: [onLocationChanged][136] [HC] <<= [HS]
+05-11 23:00:54.255  7107  7149 I PlayCommon: [4587] acij.d(23): Preparing logs for uploading
+05-11 23:00:54.257  7107  7149 W PlayCommon: [4587] acij.a(1): No account for auth token provided
+05-11 23:00:54.258  7107  7149 I PlayCommon: [4587] acij.d(125): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+05-11 23:00:54.439  3165  3178 I zygote  : Background concurrent copying GC freed 80348(2MB) AllocSpace objects, 1(20KB) LOS objects, 50% free, 8MB/17MB, paused 1.787ms total 162.988ms
+05-11 23:00:54.584  7107  7149 I PlayCommon: [4587] acij.d(173): Successfully uploaded logs.
+05-11 23:00:55.754  2413  2545 I UsageStatsService: User[0] Flushing usage stats to disk
+05-11 23:00:55.942  2413  2545 I UsageStatsService: User[10] Flushing usage stats to disk
+05-11 23:01:00.001  2413  2413 I ActivityManager: Killing 14528:com.google.process.gapps/u0a27 (adj 906): empty #17
+05-11 23:01:01.299  3612  8665 I Places  : Converted 3 out of 3 WiFi scans
+05-11 23:01:01.301  3612  3612 I GeofencerStateMachine: sendNewTransitions called.
+05-11 23:01:01.343  3612 28103 I GCoreUlr: Successfully inserted 1 locations
+05-11 23:01:01.684  2413  4865 I ActivityManager: Killing 28262:com.google.android.apps.tachyon/u10a83 (adj 906): empty #17
+05-11 23:01:01.699  2413  4871 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=238, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@f0ad00e)
+05-11 23:01:01.700  2413  3092 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=238, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+05-11 23:01:02.018 28813 28813 I System.out: IOT MISAEL: 192.168.1.72
+05-11 23:01:02.019 28813 28813 W System.err: android.os.NetworkOnMainThreadException
+05-11 23:01:02.030 28813 28813 W System.err: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1457)
+05-11 23:01:02.031 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:364)
+05-11 23:01:02.031 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:209)
+05-11 23:01:02.031 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:191)
+05-11 23:01:02.031 28813 28813 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:356)
+05-11 23:01:02.031 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:616)
+05-11 23:01:02.031 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:565)
+05-11 23:01:02.031 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:445)
+05-11 23:01:02.031 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:217)
+05-11 23:01:02.031 28813 28813 W System.err: 	at com.iot.IoTThread$1.onClick(IoTThread.java:34)
+05-11 23:01:02.031 28813 28813 W System.err: 	at android.view.View.performClick(View.java:6259)
+05-11 23:01:02.031 28813 28813 W System.err: 	at android.view.View$PerformClick.run(View.java:24732)
+05-11 23:01:02.031 28813 28813 W System.err: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:01:02.031 28813 28813 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:01:02.031 28813 28813 W System.err: 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:01:02.031 28813 28813 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6694)
+05-11 23:01:02.031 28813 28813 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+05-11 23:01:02.031 28813 28813 W System.err: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-11 23:01:02.031 28813 28813 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:769)
+05-11 23:01:02.369  2413  2433 I zygote  : Background concurrent copying GC freed 223084(11MB) AllocSpace objects, 115(9MB) LOS objects, 42% free, 29MB/52MB, paused 702us total 282.476ms
+05-11 23:01:02.442  3165  3178 I zygote  : Background concurrent copying GC freed 206158(6MB) AllocSpace objects, 32(1412KB) LOS objects, 50% free, 9MB/19MB, paused 665us total 160.989ms
+05-11 23:01:02.938   550   550 I SFPerfTracer:      triggers: (rate: 2446:210750) (compose: 0:298) (post: 0:772) (render: 0:1087) (56:885533 frames) (57:964352)
+05-11 23:01:02.939   550   550 D SFPerfTracer:        layers: (6:9) (StatusBar#0 (0xadb33000): 1:43380) (RoundedOverlay#0 (0xadb35000): 0:806) (RoundedOverlay#1 (0xadb39000): 0:906) (DimLayerController/Stack=0#0 (0xadaae000): 0:523)* (NavigationBar#0 (0xadb45000): 0:3635) (com.android.systemui.ImageWallpaper#0 (0xadb1d000): 0:55)* (animation background stackId=1#0 (0xadabb000): 0:12)* (com.iot/com.iot.MainActivity#0 (0xadaa5000): 57:121) (InputMethod#0 (0xadb26000): 0:50) 
+05-11 23:01:03.061   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:01:03.404  2413  2433 I zygote  : Background concurrent copying GC freed 192512(10MB) AllocSpace objects, 199(18MB) LOS objects, 42% free, 24MB/43MB, paused 840us total 277.262ms
+05-11 23:01:04.115  3395  3501 I QCNEJ   : |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+05-11 23:01:04.116  3395  3501 D QCNEJ   : |CORE| Updating RSSI: -78
+05-11 23:01:04.126  5923  6087 I CarrierServices: [4460] cdd.a: FiST: Wifi connectivity status true
+05-11 23:01:04.128  5923  6087 I CarrierServices: [4460] cdi.d: Connected state: [1], networkType: [WIFI]
+05-11 23:01:06.425 28813 28813 I System.out: IOT MISAEL: 192.168.1.72
+05-11 23:01:06.427 28813 28813 W System.err: android.os.NetworkOnMainThreadException
+05-11 23:01:06.427 28813 28813 W System.err: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1457)
+05-11 23:01:06.427 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:364)
+05-11 23:01:06.427 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:209)
+05-11 23:01:06.427 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:191)
+05-11 23:01:06.427 28813 28813 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:356)
+05-11 23:01:06.427 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:616)
+05-11 23:01:06.427 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:565)
+05-11 23:01:06.427 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:445)
+05-11 23:01:06.427 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:217)
+05-11 23:01:06.427 28813 28813 W System.err: 	at com.iot.IoTThread$1.onClick(IoTThread.java:34)
+05-11 23:01:06.427 28813 28813 W System.err: 	at android.view.View.performClick(View.java:6259)
+05-11 23:01:06.427 28813 28813 W System.err: 	at android.view.View$PerformClick.run(View.java:24732)
+05-11 23:01:06.428 28813 28813 W System.err: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:01:06.428 28813 28813 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:01:06.428 28813 28813 W System.err: 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:01:06.428 28813 28813 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6694)
+05-11 23:01:06.428 28813 28813 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+05-11 23:01:06.428 28813 28813 W System.err: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-11 23:01:06.428 28813 28813 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:769)
+05-11 23:01:06.961 28813 28813 I System.out: IOT MISAEL: 192.168.1.72
+05-11 23:01:06.962 28813 28813 W System.err: android.os.NetworkOnMainThreadException
+05-11 23:01:06.962 28813 28813 W System.err: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1457)
+05-11 23:01:06.962 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:364)
+05-11 23:01:06.962 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:209)
+05-11 23:01:06.962 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:191)
+05-11 23:01:06.962 28813 28813 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:356)
+05-11 23:01:06.962 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:616)
+05-11 23:01:06.962 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:565)
+05-11 23:01:06.962 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:445)
+05-11 23:01:06.962 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:217)
+05-11 23:01:06.962 28813 28813 W System.err: 	at com.iot.IoTThread$1.onClick(IoTThread.java:34)
+05-11 23:01:06.962 28813 28813 W System.err: 	at android.view.View.performClick(View.java:6259)
+05-11 23:01:06.962 28813 28813 W System.err: 	at android.view.View$PerformClick.run(View.java:24732)
+05-11 23:01:06.962 28813 28813 W System.err: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:01:06.962 28813 28813 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:01:06.962 28813 28813 W System.err: 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:01:06.962 28813 28813 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6694)
+05-11 23:01:06.962 28813 28813 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+05-11 23:01:06.962 28813 28813 W System.err: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-11 23:01:06.963 28813 28813 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:769)
+05-11 23:01:07.137  3395  3501 I QCNEJ   : |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+05-11 23:01:07.137  3395  3501 D QCNEJ   : |CORE| Updating RSSI: -77
+05-11 23:01:07.148  5923  6087 I CarrierServices: [4460] cdd.a: FiST: Wifi connectivity status true
+05-11 23:01:07.149  5923  6087 I CarrierServices: [4460] cdi.d: Connected state: [1], networkType: [WIFI]
+05-11 23:01:07.218 28813 28813 I System.out: IOT MISAEL: 192.168.1.72
+05-11 23:01:07.219 28813 28813 W System.err: android.os.NetworkOnMainThreadException
+05-11 23:01:07.219 28813 28813 W System.err: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1457)
+05-11 23:01:07.219 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:364)
+05-11 23:01:07.219 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:209)
+05-11 23:01:07.219 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:191)
+05-11 23:01:07.219 28813 28813 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:356)
+05-11 23:01:07.220 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:616)
+05-11 23:01:07.220 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:565)
+05-11 23:01:07.220 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:445)
+05-11 23:01:07.220 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:217)
+05-11 23:01:07.220 28813 28813 W System.err: 	at com.iot.IoTThread$1.onClick(IoTThread.java:34)
+05-11 23:01:07.220 28813 28813 W System.err: 	at android.view.View.performClick(View.java:6259)
+05-11 23:01:07.220 28813 28813 W System.err: 	at android.view.View$PerformClick.run(View.java:24732)
+05-11 23:01:07.220 28813 28813 W System.err: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:01:07.220 28813 28813 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:01:07.220 28813 28813 W System.err: 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:01:07.220 28813 28813 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6694)
+05-11 23:01:07.220 28813 28813 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+05-11 23:01:07.220 28813 28813 W System.err: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-11 23:01:07.220 28813 28813 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:769)
+05-11 23:01:07.462 28813 28813 I System.out: IOT MISAEL: 192.168.1.72
+05-11 23:01:07.463 28813 28813 W System.err: android.os.NetworkOnMainThreadException
+05-11 23:01:07.463 28813 28813 W System.err: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1457)
+05-11 23:01:07.463 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:364)
+05-11 23:01:07.463 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:209)
+05-11 23:01:07.463 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:191)
+05-11 23:01:07.463 28813 28813 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:356)
+05-11 23:01:07.463 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:616)
+05-11 23:01:07.463 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:565)
+05-11 23:01:07.463 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:445)
+05-11 23:01:07.464 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:217)
+05-11 23:01:07.464 28813 28813 W System.err: 	at com.iot.IoTThread$1.onClick(IoTThread.java:34)
+05-11 23:01:07.464 28813 28813 W System.err: 	at android.view.View.performClick(View.java:6259)
+05-11 23:01:07.464 28813 28813 W System.err: 	at android.view.View$PerformClick.run(View.java:24732)
+05-11 23:01:07.464 28813 28813 W System.err: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:01:07.464 28813 28813 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:01:07.464 28813 28813 W System.err: 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:01:07.464 28813 28813 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6694)
+05-11 23:01:07.464 28813 28813 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+05-11 23:01:07.464 28813 28813 W System.err: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-11 23:01:07.464 28813 28813 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:769)
+05-11 23:01:07.654 28813 28813 I System.out: IOT MISAEL: 192.168.1.72
+05-11 23:01:07.654 28813 28813 W System.err: android.os.NetworkOnMainThreadException
+05-11 23:01:07.655 28813 28813 W System.err: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1457)
+05-11 23:01:07.655 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:364)
+05-11 23:01:07.655 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:209)
+05-11 23:01:07.655 28813 28813 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:191)
+05-11 23:01:07.655 28813 28813 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:356)
+05-11 23:01:07.655 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:616)
+05-11 23:01:07.655 28813 28813 W System.err: 	at java.net.Socket.connect(Socket.java:565)
+05-11 23:01:07.655 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:445)
+05-11 23:01:07.655 28813 28813 W System.err: 	at java.net.Socket.<init>(Socket.java:217)
+05-11 23:01:07.655 28813 28813 W System.err: 	at com.iot.IoTThread$1.onClick(IoTThread.java:34)
+05-11 23:01:07.655 28813 28813 W System.err: 	at android.view.View.performClick(View.java:6259)
+05-11 23:01:07.655 28813 28813 W System.err: 	at android.view.View$PerformClick.run(View.java:24732)
+05-11 23:01:07.655 28813 28813 W System.err: 	at android.os.Handler.handleCallback(Handler.java:789)
+05-11 23:01:07.655 28813 28813 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+05-11 23:01:07.655 28813 28813 W System.err: 	at android.os.Looper.loop(Looper.java:164)
+05-11 23:01:07.655 28813 28813 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6694)
+05-11 23:01:07.655 28813 28813 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+05-11 23:01:07.655 28813 28813 W System.err: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+05-11 23:01:07.655 28813 28813 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:769)
+05-11 23:01:08.185   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=2.000000
+05-11 23:01:08.483   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:01:08.569   550   550 I SFPerfTracer:      triggers: (rate: 2446:210750) (compose: 0:298) (post: 0:772) (render: 0:1087) (128:885661 frames) (129:964498)
+05-11 23:01:08.569   550   550 D SFPerfTracer:        layers: (6:9) (StatusBar#0 (0xadb33000): 1:43383) (RoundedOverlay#0 (0xadb35000): 0:806) (RoundedOverlay#1 (0xadb39000): 0:906) (DimLayerController/Stack=0#0 (0xadaae000): 0:523)* (NavigationBar#0 (0xadb45000): 0:3635) (com.android.systemui.ImageWallpaper#0 (0xadb1d000): 0:55)* (animation background stackId=1#0 (0xadabb000): 0:12)* (com.iot/com.iot.MainActivity#0 (0xadaa5000): 129:256) (InputMethod#0 (0xadb26000): 0:50) 
+05-11 23:01:08.825   550   817 I SFPerfTracer:      triggers: (rate: 0:0) (48487 sw vsyncs) (0 skipped) (128:1153961 vsyncs) (130:1368351)
+05-11 23:01:09.080   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:01:09.290   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=2.000000
+05-11 23:01:09.853   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+05-11 23:01:10.866   501  1133 D NativeSensors: CapSensor:  mPendingEvent.distance=2.000000
